@@ -193,6 +193,8 @@ github.com/f01c5700/coreth v0.13.8-fixed-genesis-upgrade.0.20240909014749-891d37
 github.com/f01c5700/coreth v0.13.8-fixed-genesis-upgrade.0.20240909014749-891d371a6c8f/go.mod h1:UsmuaW9mny6UUxEmW/iqa854QljD++51srRWdJW/irs=
 github.com/f01c5700/coreth v0.13.8-fixed-genesis-upgrade.0.20240909022419-7653179e0c3f h1:Qcf1s4Sfws5xdrWxQIJu0B42Sbf1Lan+IYb7/Zn4qsw=
 github.com/f01c5700/coreth v0.13.8-fixed-genesis-upgrade.0.20240909022419-7653179e0c3f/go.mod h1:UsmuaW9mny6UUxEmW/iqa854QljD++51srRWdJW/irs=
+github.com/f01c5700/coreth v0.13.8-fixed-genesis-upgrade.0.20240909025842-0b79bc768733 h1:2pN9Yld8XtaltYl0Tg5UPw9IQ1CMjKwo8ZEF6hnjtqQ=
+github.com/f01c5700/coreth v0.13.8-fixed-genesis-upgrade.0.20240909025842-0b79bc768733/go.mod h1:UsmuaW9mny6UUxEmW/iqa854QljD++51srRWdJW/irs=
 github.com/fasthttp-contrib/websocket v0.0.0-20160511215533-1f3b11f56072/go.mod h1:duJ4Jxv5lDcvg4QuQr0oowTf7dz4/CR8NtyCooz9HL8=
 github.com/fatih/structs v1.1.0/go.mod h1:9NiDSp5zOcgEDl+j00MP/WkGVPOlPRLejGD8Ga6PJ7M=
 github.com/frankban/quicktest v1.14.4 h1:g2rn0vABPOOXmZUj+vbmUp0lPoXEMuhTpIluN0XL9UY=

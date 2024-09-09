@@ -16,7 +16,7 @@ require (
 	github.com/compose-spec/compose-go v1.20.2
 	github.com/decred/dcrd/dcrec/secp256k1/v4 v4.1.0
 	github.com/ethereum/go-ethereum v1.13.8
-	github.com/f01c5700/coreth v0.13.8-fixed-genesis-upgrade.0.20240909022419-7653179e0c3f
+	github.com/f01c5700/coreth v0.13.8-fixed-genesis-upgrade.0.20240909025842-0b79bc768733
 	github.com/google/btree v1.1.2
 	github.com/google/renameio/v2 v2.0.0
 	github.com/google/uuid v1.6.0
