@@ -9,14 +9,14 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow/engine/common"
-	"github.com/ava-labs/avalanchego/utils/logging"
-	"github.com/ava-labs/avalanchego/vms/avm/fxs"
-	"github.com/ava-labs/avalanchego/vms/avm/txs"
-	"github.com/ava-labs/avalanchego/vms/avm/txs/mempool"
-	"github.com/ava-labs/avalanchego/vms/components/avax"
-	"github.com/ava-labs/avalanchego/vms/secp256k1fx"
+	"github.com/f01c5700/avalanchego/ids"
+	"github.com/f01c5700/avalanchego/snow/engine/common"
+	"github.com/f01c5700/avalanchego/utils/logging"
+	"github.com/f01c5700/avalanchego/vms/avm/fxs"
+	"github.com/f01c5700/avalanchego/vms/avm/txs"
+	"github.com/f01c5700/avalanchego/vms/avm/txs/mempool"
+	"github.com/f01c5700/avalanchego/vms/components/avax"
+	"github.com/f01c5700/avalanchego/vms/secp256k1fx"
 )
 
 var _ TxVerifier = (*testVerifier)(nil)

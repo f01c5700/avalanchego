@@ -8,9 +8,9 @@ import (
 	"context"
 	"time"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow/snowtest"
-	"github.com/ava-labs/avalanchego/utils"
+	"github.com/f01c5700/avalanchego/ids"
+	"github.com/f01c5700/avalanchego/snow/snowtest"
+	"github.com/f01c5700/avalanchego/utils"
 )
 
 const (

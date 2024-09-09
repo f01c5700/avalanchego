@@ -10,7 +10,7 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/ava-labs/avalanchego/utils/metric"
+	"github.com/f01c5700/avalanchego/utils/metric"
 
 	dto "github.com/prometheus/client_model/go"
 )

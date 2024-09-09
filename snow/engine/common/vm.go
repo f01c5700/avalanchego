@@ -7,10 +7,10 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/ava-labs/avalanchego/api/health"
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/avalanchego/snow/validators"
+	"github.com/f01c5700/avalanchego/api/health"
+	"github.com/f01c5700/avalanchego/database"
+	"github.com/f01c5700/avalanchego/snow"
+	"github.com/f01c5700/avalanchego/snow/validators"
 )
 
 // VM describes the interface that all consensus VMs must implement

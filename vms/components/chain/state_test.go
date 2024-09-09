@@ -12,12 +12,12 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow/consensus/snowman"
-	"github.com/ava-labs/avalanchego/snow/consensus/snowman/snowmantest"
-	"github.com/ava-labs/avalanchego/snow/snowtest"
-	"github.com/ava-labs/avalanchego/utils/hashing"
+	"github.com/f01c5700/avalanchego/database"
+	"github.com/f01c5700/avalanchego/ids"
+	"github.com/f01c5700/avalanchego/snow/consensus/snowman"
+	"github.com/f01c5700/avalanchego/snow/consensus/snowman/snowmantest"
+	"github.com/f01c5700/avalanchego/snow/snowtest"
+	"github.com/f01c5700/avalanchego/utils/hashing"
 )
 
 const (

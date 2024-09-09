@@ -7,10 +7,10 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/ava-labs/avalanchego/utils/units"
-	"github.com/ava-labs/avalanchego/vms/components/verify"
-	"github.com/ava-labs/avalanchego/vms/secp256k1fx"
-	"github.com/ava-labs/avalanchego/vms/types"
+	"github.com/f01c5700/avalanchego/utils/units"
+	"github.com/f01c5700/avalanchego/vms/components/verify"
+	"github.com/f01c5700/avalanchego/vms/secp256k1fx"
+	"github.com/f01c5700/avalanchego/vms/types"
 )
 
 const (

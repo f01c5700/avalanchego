@@ -10,11 +10,11 @@ import (
 
 	"google.golang.org/protobuf/types/known/emptypb"
 
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/utils"
-	"github.com/ava-labs/avalanchego/utils/set"
+	"github.com/f01c5700/avalanchego/database"
+	"github.com/f01c5700/avalanchego/utils"
+	"github.com/f01c5700/avalanchego/utils/set"
 
-	rpcdbpb "github.com/ava-labs/avalanchego/proto/pb/rpcdb"
+	rpcdbpb "github.com/f01c5700/avalanchego/proto/pb/rpcdb"
 )
 
 var (

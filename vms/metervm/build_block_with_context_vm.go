@@ -6,8 +6,8 @@ package metervm
 import (
 	"context"
 
-	"github.com/ava-labs/avalanchego/snow/consensus/snowman"
-	"github.com/ava-labs/avalanchego/snow/engine/snowman/block"
+	"github.com/f01c5700/avalanchego/snow/consensus/snowman"
+	"github.com/f01c5700/avalanchego/snow/engine/snowman/block"
 )
 
 func (vm *blockVM) BuildBlockWithContext(ctx context.Context, blockCtx *block.Context) (snowman.Block, error) {

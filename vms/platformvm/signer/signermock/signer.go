@@ -12,7 +12,7 @@ package signermock
 import (
 	reflect "reflect"
 
-	bls "github.com/ava-labs/avalanchego/utils/crypto/bls"
+	bls "github.com/f01c5700/avalanchego/utils/crypto/bls"
 	gomock "go.uber.org/mock/gomock"
 )
 

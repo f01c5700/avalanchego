@@ -13,14 +13,14 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"go.uber.org/zap"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/avalanchego/snow/validators"
-	"github.com/ava-labs/avalanchego/utils/heap"
-	"github.com/ava-labs/avalanchego/utils/set"
-	"github.com/ava-labs/avalanchego/utils/timer/mockable"
+	"github.com/f01c5700/avalanchego/ids"
+	"github.com/f01c5700/avalanchego/snow"
+	"github.com/f01c5700/avalanchego/snow/validators"
+	"github.com/f01c5700/avalanchego/utils/heap"
+	"github.com/f01c5700/avalanchego/utils/set"
+	"github.com/f01c5700/avalanchego/utils/timer/mockable"
 
-	safemath "github.com/ava-labs/avalanchego/utils/math"
+	safemath "github.com/f01c5700/avalanchego/utils/math"
 )
 
 // If a peer consistently does not respond to queries, it will

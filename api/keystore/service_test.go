@@ -10,12 +10,12 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ava-labs/avalanchego/api"
-	"github.com/ava-labs/avalanchego/database/memdb"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/formatting"
-	"github.com/ava-labs/avalanchego/utils/logging"
-	"github.com/ava-labs/avalanchego/utils/password"
+	"github.com/f01c5700/avalanchego/api"
+	"github.com/f01c5700/avalanchego/database/memdb"
+	"github.com/f01c5700/avalanchego/ids"
+	"github.com/f01c5700/avalanchego/utils/formatting"
+	"github.com/f01c5700/avalanchego/utils/logging"
+	"github.com/f01c5700/avalanchego/utils/password"
 )
 
 // strongPassword defines a password used for the following tests that

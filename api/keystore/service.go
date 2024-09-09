@@ -9,9 +9,9 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/ava-labs/avalanchego/api"
-	"github.com/ava-labs/avalanchego/utils/formatting"
-	"github.com/ava-labs/avalanchego/utils/logging"
+	"github.com/f01c5700/avalanchego/api"
+	"github.com/f01c5700/avalanchego/utils/formatting"
+	"github.com/f01c5700/avalanchego/utils/logging"
 )
 
 type service struct {

@@ -6,18 +6,18 @@ package txs
 import (
 	"fmt"
 
-	"github.com/ava-labs/avalanchego/codec"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/network/p2p/gossip"
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/avalanchego/utils/crypto/secp256k1"
-	"github.com/ava-labs/avalanchego/utils/hashing"
-	"github.com/ava-labs/avalanchego/utils/set"
-	"github.com/ava-labs/avalanchego/vms/avm/fxs"
-	"github.com/ava-labs/avalanchego/vms/components/avax"
-	"github.com/ava-labs/avalanchego/vms/nftfx"
-	"github.com/ava-labs/avalanchego/vms/propertyfx"
-	"github.com/ava-labs/avalanchego/vms/secp256k1fx"
+	"github.com/f01c5700/avalanchego/codec"
+	"github.com/f01c5700/avalanchego/ids"
+	"github.com/f01c5700/avalanchego/network/p2p/gossip"
+	"github.com/f01c5700/avalanchego/snow"
+	"github.com/f01c5700/avalanchego/utils/crypto/secp256k1"
+	"github.com/f01c5700/avalanchego/utils/hashing"
+	"github.com/f01c5700/avalanchego/utils/set"
+	"github.com/f01c5700/avalanchego/vms/avm/fxs"
+	"github.com/f01c5700/avalanchego/vms/components/avax"
+	"github.com/f01c5700/avalanchego/vms/nftfx"
+	"github.com/f01c5700/avalanchego/vms/propertyfx"
+	"github.com/f01c5700/avalanchego/vms/secp256k1fx"
 )
 
 var _ gossip.Gossipable = (*Tx)(nil)

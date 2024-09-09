@@ -7,11 +7,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/avalanchego/utils/constants"
-	"github.com/ava-labs/avalanchego/utils/formatting/address"
-	"github.com/ava-labs/avalanchego/utils/set"
+	"github.com/f01c5700/avalanchego/ids"
+	"github.com/f01c5700/avalanchego/snow"
+	"github.com/f01c5700/avalanchego/utils/constants"
+	"github.com/f01c5700/avalanchego/utils/formatting/address"
+	"github.com/f01c5700/avalanchego/utils/set"
 )
 
 var (

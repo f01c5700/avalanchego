@@ -16,10 +16,10 @@ import (
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ava-labs/avalanchego/chains"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow/consensus/snowball"
-	"github.com/ava-labs/avalanchego/subnets"
+	"github.com/f01c5700/avalanchego/chains"
+	"github.com/f01c5700/avalanchego/ids"
+	"github.com/f01c5700/avalanchego/snow/consensus/snowball"
+	"github.com/f01c5700/avalanchego/subnets"
 )
 
 const chainConfigFilenameExtention = ".ex"

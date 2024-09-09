@@ -7,16 +7,16 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/params"
-	"github.com/ava-labs/coreth/plugin/evm"
 	"github.com/ethereum/go-ethereum/accounts/abi"
 	"github.com/ethereum/go-ethereum/common"
+	"github.com/f01c5700/coreth/core/types"
+	"github.com/f01c5700/coreth/params"
+	"github.com/f01c5700/coreth/plugin/evm"
 	"github.com/onsi/ginkgo/v2"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ava-labs/avalanchego/tests/fixture/e2e"
-	"github.com/ava-labs/avalanchego/tests/fixture/tmpnet"
+	"github.com/f01c5700/avalanchego/tests/fixture/e2e"
+	"github.com/f01c5700/avalanchego/tests/fixture/tmpnet"
 )
 
 // This test uses the compiled bin for `hashing.sol` as

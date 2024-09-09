@@ -6,7 +6,7 @@ package admin
 import (
 	"context"
 
-	"github.com/ava-labs/avalanchego/database"
+	"github.com/f01c5700/avalanchego/database"
 )
 
 var _ database.KeyValueReader = (*KeyValueReader)(nil)

@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ava-labs/avalanchego/utils/units"
+	"github.com/f01c5700/avalanchego/utils/units"
 )
 
 func ExampleNewCalculator() {

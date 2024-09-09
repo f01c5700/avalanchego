@@ -6,10 +6,10 @@ package node
 import (
 	"fmt"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow/validators"
-	"github.com/ava-labs/avalanchego/utils/crypto/bls"
-	"github.com/ava-labs/avalanchego/utils/set"
+	"github.com/f01c5700/avalanchego/ids"
+	"github.com/f01c5700/avalanchego/snow/validators"
+	"github.com/f01c5700/avalanchego/utils/crypto/bls"
+	"github.com/f01c5700/avalanchego/utils/set"
 )
 
 var _ validators.Manager = (*overriddenManager)(nil)

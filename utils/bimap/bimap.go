@@ -10,7 +10,7 @@ import (
 
 	"golang.org/x/exp/maps"
 
-	"github.com/ava-labs/avalanchego/utils"
+	"github.com/f01c5700/avalanchego/utils"
 )
 
 var (

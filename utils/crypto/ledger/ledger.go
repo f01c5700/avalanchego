@@ -6,10 +6,10 @@ package ledger
 import (
 	"fmt"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/crypto/keychain"
-	"github.com/ava-labs/avalanchego/utils/hashing"
-	"github.com/ava-labs/avalanchego/version"
+	"github.com/f01c5700/avalanchego/ids"
+	"github.com/f01c5700/avalanchego/utils/crypto/keychain"
+	"github.com/f01c5700/avalanchego/utils/hashing"
+	"github.com/f01c5700/avalanchego/version"
 
 	ledger "github.com/ava-labs/ledger-avalanche/go"
 	bip32 "github.com/tyler-smith/go-bip32"

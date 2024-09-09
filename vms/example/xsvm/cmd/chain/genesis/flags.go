@@ -10,10 +10,10 @@ import (
 
 	"github.com/spf13/pflag"
 
-	"github.com/ava-labs/avalanchego/genesis"
-	"github.com/ava-labs/avalanchego/ids"
+	"github.com/f01c5700/avalanchego/genesis"
+	"github.com/f01c5700/avalanchego/ids"
 
-	xsgenesis "github.com/ava-labs/avalanchego/vms/example/xsvm/genesis"
+	xsgenesis "github.com/f01c5700/avalanchego/vms/example/xsvm/genesis"
 )
 
 const (

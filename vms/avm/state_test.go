@@ -9,15 +9,15 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow/engine/common"
-	"github.com/ava-labs/avalanchego/upgrade/upgradetest"
-	"github.com/ava-labs/avalanchego/utils/constants"
-	"github.com/ava-labs/avalanchego/utils/crypto/secp256k1"
-	"github.com/ava-labs/avalanchego/utils/units"
-	"github.com/ava-labs/avalanchego/vms/avm/txs"
-	"github.com/ava-labs/avalanchego/vms/components/avax"
-	"github.com/ava-labs/avalanchego/vms/secp256k1fx"
+	"github.com/f01c5700/avalanchego/ids"
+	"github.com/f01c5700/avalanchego/snow/engine/common"
+	"github.com/f01c5700/avalanchego/upgrade/upgradetest"
+	"github.com/f01c5700/avalanchego/utils/constants"
+	"github.com/f01c5700/avalanchego/utils/crypto/secp256k1"
+	"github.com/f01c5700/avalanchego/utils/units"
+	"github.com/f01c5700/avalanchego/vms/avm/txs"
+	"github.com/f01c5700/avalanchego/vms/components/avax"
+	"github.com/f01c5700/avalanchego/vms/secp256k1fx"
 )
 
 func TestSetsAndGets(t *testing.T) {

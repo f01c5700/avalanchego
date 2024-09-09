@@ -4,9 +4,9 @@
 package rpcdb
 
 import (
-	"github.com/ava-labs/avalanchego/database"
+	"github.com/f01c5700/avalanchego/database"
 
-	rpcdbpb "github.com/ava-labs/avalanchego/proto/pb/rpcdb"
+	rpcdbpb "github.com/f01c5700/avalanchego/proto/pb/rpcdb"
 )
 
 var (

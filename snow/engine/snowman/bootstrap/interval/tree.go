@@ -6,7 +6,7 @@ package interval
 import (
 	"github.com/google/btree"
 
-	"github.com/ava-labs/avalanchego/database"
+	"github.com/f01c5700/avalanchego/database"
 )
 
 // TODO: Benchmark what degree to use.

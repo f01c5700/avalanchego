@@ -10,16 +10,16 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/database/memdb"
-	"github.com/ava-labs/avalanchego/database/versiondb"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/upgrade"
-	"github.com/ava-labs/avalanchego/vms/avm/block"
-	"github.com/ava-labs/avalanchego/vms/avm/fxs"
-	"github.com/ava-labs/avalanchego/vms/avm/txs"
-	"github.com/ava-labs/avalanchego/vms/components/avax"
-	"github.com/ava-labs/avalanchego/vms/secp256k1fx"
+	"github.com/f01c5700/avalanchego/database"
+	"github.com/f01c5700/avalanchego/database/memdb"
+	"github.com/f01c5700/avalanchego/database/versiondb"
+	"github.com/f01c5700/avalanchego/ids"
+	"github.com/f01c5700/avalanchego/upgrade"
+	"github.com/f01c5700/avalanchego/vms/avm/block"
+	"github.com/f01c5700/avalanchego/vms/avm/fxs"
+	"github.com/f01c5700/avalanchego/vms/avm/txs"
+	"github.com/f01c5700/avalanchego/vms/components/avax"
+	"github.com/f01c5700/avalanchego/vms/secp256k1fx"
 )
 
 const trackChecksums = false

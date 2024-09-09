@@ -4,8 +4,8 @@
 package genesis
 
 import (
-	"github.com/ava-labs/avalanchego/vms/components/avax"
-	"github.com/ava-labs/avalanchego/vms/platformvm/txs"
+	"github.com/f01c5700/avalanchego/vms/components/avax"
+	"github.com/f01c5700/avalanchego/vms/platformvm/txs"
 )
 
 // UTXO adds messages to UTXOs

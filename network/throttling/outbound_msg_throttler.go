@@ -9,11 +9,11 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"go.uber.org/zap"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/message"
-	"github.com/ava-labs/avalanchego/snow/validators"
-	"github.com/ava-labs/avalanchego/utils/constants"
-	"github.com/ava-labs/avalanchego/utils/logging"
+	"github.com/f01c5700/avalanchego/ids"
+	"github.com/f01c5700/avalanchego/message"
+	"github.com/f01c5700/avalanchego/snow/validators"
+	"github.com/f01c5700/avalanchego/utils/constants"
+	"github.com/f01c5700/avalanchego/utils/logging"
 )
 
 var (

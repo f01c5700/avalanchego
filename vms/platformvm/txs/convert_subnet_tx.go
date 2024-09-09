@@ -6,11 +6,11 @@ package txs
 import (
 	"errors"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/avalanchego/utils/constants"
-	"github.com/ava-labs/avalanchego/vms/components/verify"
-	"github.com/ava-labs/avalanchego/vms/types"
+	"github.com/f01c5700/avalanchego/ids"
+	"github.com/f01c5700/avalanchego/snow"
+	"github.com/f01c5700/avalanchego/utils/constants"
+	"github.com/f01c5700/avalanchego/vms/components/verify"
+	"github.com/f01c5700/avalanchego/vms/types"
 )
 
 const MaxSubnetAddressLength = 4096

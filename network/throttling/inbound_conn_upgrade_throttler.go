@@ -8,11 +8,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ava-labs/avalanchego/utils/logging"
-	"github.com/ava-labs/avalanchego/utils/set"
-	"github.com/ava-labs/avalanchego/utils/timer/mockable"
+	"github.com/f01c5700/avalanchego/utils/logging"
+	"github.com/f01c5700/avalanchego/utils/set"
+	"github.com/f01c5700/avalanchego/utils/timer/mockable"
 
-	timerpkg "github.com/ava-labs/avalanchego/utils/timer"
+	timerpkg "github.com/f01c5700/avalanchego/utils/timer"
 )
 
 var (

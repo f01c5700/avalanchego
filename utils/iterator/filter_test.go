@@ -9,9 +9,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/iterator"
-	"github.com/ava-labs/avalanchego/vms/platformvm/state"
+	"github.com/f01c5700/avalanchego/ids"
+	"github.com/f01c5700/avalanchego/utils/iterator"
+	"github.com/f01c5700/avalanchego/vms/platformvm/state"
 )
 
 func TestFilter(t *testing.T) {

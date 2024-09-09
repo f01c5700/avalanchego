@@ -3,7 +3,7 @@
 
 package sync
 
-import "github.com/ava-labs/avalanchego/x/merkledb"
+import "github.com/f01c5700/avalanchego/x/merkledb"
 
 type DB interface {
 	merkledb.Clearer

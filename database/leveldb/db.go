@@ -22,9 +22,9 @@ import (
 	"github.com/syndtr/goleveldb/leveldb/util"
 	"go.uber.org/zap"
 
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/utils"
-	"github.com/ava-labs/avalanchego/utils/logging"
+	"github.com/f01c5700/avalanchego/database"
+	"github.com/f01c5700/avalanchego/utils"
+	"github.com/f01c5700/avalanchego/utils/logging"
 )
 
 const (

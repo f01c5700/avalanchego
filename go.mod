@@ -1,4 +1,4 @@
-module github.com/ava-labs/avalanchego
+module github.com/f01c5700/avalanchego
 
 // Changes to the minimum golang version must also be replicated in
 // CONTRIBUTING.md
@@ -10,7 +10,6 @@ require (
 	github.com/DataDog/zstd v1.5.2
 	github.com/NYTimes/gziphandler v1.1.1
 	github.com/antithesishq/antithesis-sdk-go v0.3.8
-	github.com/ava-labs/coreth v0.13.8-fixed-genesis-upgrade.0.20240815193440-a96bc921e732
 	github.com/ava-labs/ledger-avalanche/go v0.0.0-20240610153809-9c955cc90a95
 	github.com/btcsuite/btcd/btcutil v1.1.3
 	github.com/cockroachdb/pebble v0.0.0-20230928194634-aa077af62593
@@ -97,6 +96,7 @@ require (
 	github.com/docker/go-units v0.5.0 // indirect
 	github.com/dop251/goja v0.0.0-20230806174421-c933cf95e127 // indirect
 	github.com/ethereum/c-kzg-4844 v0.4.0 // indirect
+	github.com/f01c5700/coreth v0.13.7 // indirect
 	github.com/fjl/memsize v0.0.0-20190710130421-bcb5799ab5e5 // indirect
 	github.com/frankban/quicktest v1.14.4 // indirect
 	github.com/fsnotify/fsnotify v1.6.0 // indirect
@@ -165,3 +165,5 @@ require (
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	rsc.io/tmplfunc v0.0.3 // indirect
 )
+
+replace github.com/f01c5700/coreth => ../coreth

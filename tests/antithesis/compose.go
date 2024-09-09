@@ -13,11 +13,11 @@ import (
 	"github.com/compose-spec/compose-go/types"
 	"gopkg.in/yaml.v3"
 
-	"github.com/ava-labs/avalanchego/config"
-	"github.com/ava-labs/avalanchego/tests/fixture/tmpnet"
-	"github.com/ava-labs/avalanchego/utils/constants"
-	"github.com/ava-labs/avalanchego/utils/logging"
-	"github.com/ava-labs/avalanchego/utils/perms"
+	"github.com/f01c5700/avalanchego/config"
+	"github.com/f01c5700/avalanchego/tests/fixture/tmpnet"
+	"github.com/f01c5700/avalanchego/utils/constants"
+	"github.com/f01c5700/avalanchego/utils/logging"
+	"github.com/f01c5700/avalanchego/utils/perms"
 )
 
 const bootstrapIndex = 0

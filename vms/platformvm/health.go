@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/utils/constants"
+	"github.com/f01c5700/avalanchego/database"
+	"github.com/f01c5700/avalanchego/utils/constants"
 )
 
 func (vm *VM) HealthCheck(context.Context) (interface{}, error) {

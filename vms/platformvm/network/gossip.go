@@ -11,15 +11,15 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/network/p2p"
-	"github.com/ava-labs/avalanchego/network/p2p/gossip"
-	"github.com/ava-labs/avalanchego/snow/engine/common"
-	"github.com/ava-labs/avalanchego/utils/logging"
-	"github.com/ava-labs/avalanchego/vms/platformvm/txs"
-	"github.com/ava-labs/avalanchego/vms/txs/mempool"
+	"github.com/f01c5700/avalanchego/ids"
+	"github.com/f01c5700/avalanchego/network/p2p"
+	"github.com/f01c5700/avalanchego/network/p2p/gossip"
+	"github.com/f01c5700/avalanchego/snow/engine/common"
+	"github.com/f01c5700/avalanchego/utils/logging"
+	"github.com/f01c5700/avalanchego/vms/platformvm/txs"
+	"github.com/f01c5700/avalanchego/vms/txs/mempool"
 
-	pmempool "github.com/ava-labs/avalanchego/vms/platformvm/txs/mempool"
+	pmempool "github.com/f01c5700/avalanchego/vms/platformvm/txs/mempool"
 )
 
 var (

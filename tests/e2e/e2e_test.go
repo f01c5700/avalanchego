@@ -12,19 +12,19 @@ import (
 	"github.com/stretchr/testify/require"
 
 	// ensure test packages are scanned by ginkgo
-	_ "github.com/ava-labs/avalanchego/tests/e2e/banff"
-	_ "github.com/ava-labs/avalanchego/tests/e2e/c"
-	_ "github.com/ava-labs/avalanchego/tests/e2e/etna"
-	_ "github.com/ava-labs/avalanchego/tests/e2e/faultinjection"
-	_ "github.com/ava-labs/avalanchego/tests/e2e/p"
-	_ "github.com/ava-labs/avalanchego/tests/e2e/x"
-	_ "github.com/ava-labs/avalanchego/tests/e2e/x/transfer"
+	_ "github.com/f01c5700/avalanchego/tests/e2e/banff"
+	_ "github.com/f01c5700/avalanchego/tests/e2e/c"
+	_ "github.com/f01c5700/avalanchego/tests/e2e/etna"
+	_ "github.com/f01c5700/avalanchego/tests/e2e/faultinjection"
+	_ "github.com/f01c5700/avalanchego/tests/e2e/p"
+	_ "github.com/f01c5700/avalanchego/tests/e2e/x"
+	_ "github.com/f01c5700/avalanchego/tests/e2e/x/transfer"
 
-	"github.com/ava-labs/avalanchego/config"
-	"github.com/ava-labs/avalanchego/tests/e2e/vms"
-	"github.com/ava-labs/avalanchego/tests/fixture/e2e"
-	"github.com/ava-labs/avalanchego/tests/fixture/tmpnet"
-	"github.com/ava-labs/avalanchego/upgrade"
+	"github.com/f01c5700/avalanchego/config"
+	"github.com/f01c5700/avalanchego/tests/e2e/vms"
+	"github.com/f01c5700/avalanchego/tests/fixture/e2e"
+	"github.com/f01c5700/avalanchego/tests/fixture/tmpnet"
+	"github.com/f01c5700/avalanchego/upgrade"
 )
 
 func TestE2E(t *testing.T) {

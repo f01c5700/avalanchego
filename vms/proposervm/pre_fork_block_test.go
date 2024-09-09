@@ -12,19 +12,19 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/avalanchego/snow/consensus/snowman"
-	"github.com/ava-labs/avalanchego/snow/consensus/snowman/snowmanmock"
-	"github.com/ava-labs/avalanchego/snow/consensus/snowman/snowmantest"
-	"github.com/ava-labs/avalanchego/snow/engine/snowman/block/blockmock"
-	"github.com/ava-labs/avalanchego/snow/snowtest"
-	"github.com/ava-labs/avalanchego/snow/validators/validatorsmock"
-	"github.com/ava-labs/avalanchego/utils/logging"
-	"github.com/ava-labs/avalanchego/utils/timer/mockable"
+	"github.com/f01c5700/avalanchego/database"
+	"github.com/f01c5700/avalanchego/ids"
+	"github.com/f01c5700/avalanchego/snow"
+	"github.com/f01c5700/avalanchego/snow/consensus/snowman"
+	"github.com/f01c5700/avalanchego/snow/consensus/snowman/snowmanmock"
+	"github.com/f01c5700/avalanchego/snow/consensus/snowman/snowmantest"
+	"github.com/f01c5700/avalanchego/snow/engine/snowman/block/blockmock"
+	"github.com/f01c5700/avalanchego/snow/snowtest"
+	"github.com/f01c5700/avalanchego/snow/validators/validatorsmock"
+	"github.com/f01c5700/avalanchego/utils/logging"
+	"github.com/f01c5700/avalanchego/utils/timer/mockable"
 
-	statelessblock "github.com/ava-labs/avalanchego/vms/proposervm/block"
+	statelessblock "github.com/f01c5700/avalanchego/vms/proposervm/block"
 )
 
 func TestOracle_PreForkBlkImplementsInterface(t *testing.T) {

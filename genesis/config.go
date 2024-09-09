@@ -14,12 +14,12 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils"
-	"github.com/ava-labs/avalanchego/utils/constants"
-	"github.com/ava-labs/avalanchego/utils/formatting/address"
-	"github.com/ava-labs/avalanchego/utils/math"
-	"github.com/ava-labs/avalanchego/vms/platformvm/signer"
+	"github.com/f01c5700/avalanchego/ids"
+	"github.com/f01c5700/avalanchego/utils"
+	"github.com/f01c5700/avalanchego/utils/constants"
+	"github.com/f01c5700/avalanchego/utils/formatting/address"
+	"github.com/f01c5700/avalanchego/utils/math"
+	"github.com/f01c5700/avalanchego/vms/platformvm/signer"
 )
 
 const localNetworkUpdateStartTimePeriod = 9 * 30 * 24 * time.Hour // 9 months

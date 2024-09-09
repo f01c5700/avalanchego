@@ -11,12 +11,12 @@ import (
 
 	"gonum.org/v1/gonum/mathext/prng"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow/validators"
-	"github.com/ava-labs/avalanchego/utils"
-	"github.com/ava-labs/avalanchego/utils/math"
-	"github.com/ava-labs/avalanchego/utils/sampler"
-	"github.com/ava-labs/avalanchego/utils/wrappers"
+	"github.com/f01c5700/avalanchego/ids"
+	"github.com/f01c5700/avalanchego/snow/validators"
+	"github.com/f01c5700/avalanchego/utils"
+	"github.com/f01c5700/avalanchego/utils/math"
+	"github.com/f01c5700/avalanchego/utils/sampler"
+	"github.com/f01c5700/avalanchego/utils/wrappers"
 )
 
 // Proposer list constants

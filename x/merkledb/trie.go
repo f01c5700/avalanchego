@@ -9,9 +9,9 @@ import (
 	"fmt"
 	"slices"
 
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/maybe"
+	"github.com/f01c5700/avalanchego/database"
+	"github.com/f01c5700/avalanchego/ids"
+	"github.com/f01c5700/avalanchego/utils/maybe"
 )
 
 type ViewChanges struct {

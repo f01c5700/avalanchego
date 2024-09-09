@@ -6,8 +6,8 @@ package main
 import (
 	"log"
 
-	"github.com/ava-labs/avalanchego/tests/antithesis"
-	"github.com/ava-labs/avalanchego/tests/fixture/tmpnet"
+	"github.com/f01c5700/avalanchego/tests/antithesis"
+	"github.com/f01c5700/avalanchego/tests/fixture/tmpnet"
 )
 
 const baseImageName = "antithesis-avalanchego"

@@ -13,13 +13,13 @@ import (
 	"go.uber.org/mock/gomock"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow/engine/common/commonmock"
-	"github.com/ava-labs/avalanchego/utils/logging"
-	"github.com/ava-labs/avalanchego/x/merkledb"
+	"github.com/f01c5700/avalanchego/database"
+	"github.com/f01c5700/avalanchego/ids"
+	"github.com/f01c5700/avalanchego/snow/engine/common/commonmock"
+	"github.com/f01c5700/avalanchego/utils/logging"
+	"github.com/f01c5700/avalanchego/x/merkledb"
 
-	pb "github.com/ava-labs/avalanchego/proto/pb/sync"
+	pb "github.com/f01c5700/avalanchego/proto/pb/sync"
 )
 
 func Test_Server_GetRangeProof(t *testing.T) {

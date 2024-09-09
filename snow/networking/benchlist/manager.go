@@ -7,10 +7,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ava-labs/avalanchego/api/metrics"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/avalanchego/snow/validators"
+	"github.com/f01c5700/avalanchego/api/metrics"
+	"github.com/f01c5700/avalanchego/ids"
+	"github.com/f01c5700/avalanchego/snow"
+	"github.com/f01c5700/avalanchego/snow/validators"
 )
 
 var _ Manager = (*manager)(nil)

@@ -3,7 +3,7 @@
 
 package xsvm
 
-import "github.com/ava-labs/avalanchego/version"
+import "github.com/f01c5700/avalanchego/version"
 
 var Version = &version.Semantic{
 	Major: 1,

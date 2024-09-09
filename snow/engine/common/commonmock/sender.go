@@ -13,9 +13,9 @@ import (
 	context "context"
 	reflect "reflect"
 
-	ids "github.com/ava-labs/avalanchego/ids"
-	common "github.com/ava-labs/avalanchego/snow/engine/common"
-	set "github.com/ava-labs/avalanchego/utils/set"
+	ids "github.com/f01c5700/avalanchego/ids"
+	common "github.com/f01c5700/avalanchego/snow/engine/common"
+	set "github.com/f01c5700/avalanchego/utils/set"
 	gomock "go.uber.org/mock/gomock"
 )
 

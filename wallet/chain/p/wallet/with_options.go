@@ -6,15 +6,15 @@ package wallet
 import (
 	"time"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/vms/components/avax"
-	"github.com/ava-labs/avalanchego/vms/platformvm/txs"
-	"github.com/ava-labs/avalanchego/vms/secp256k1fx"
-	"github.com/ava-labs/avalanchego/wallet/chain/p/builder"
-	"github.com/ava-labs/avalanchego/wallet/subnet/primary/common"
+	"github.com/f01c5700/avalanchego/ids"
+	"github.com/f01c5700/avalanchego/vms/components/avax"
+	"github.com/f01c5700/avalanchego/vms/platformvm/txs"
+	"github.com/f01c5700/avalanchego/vms/secp256k1fx"
+	"github.com/f01c5700/avalanchego/wallet/chain/p/builder"
+	"github.com/f01c5700/avalanchego/wallet/subnet/primary/common"
 
-	vmsigner "github.com/ava-labs/avalanchego/vms/platformvm/signer"
-	walletsigner "github.com/ava-labs/avalanchego/wallet/chain/p/signer"
+	vmsigner "github.com/f01c5700/avalanchego/vms/platformvm/signer"
+	walletsigner "github.com/f01c5700/avalanchego/wallet/chain/p/signer"
 )
 
 var _ Wallet = (*withOptions)(nil)

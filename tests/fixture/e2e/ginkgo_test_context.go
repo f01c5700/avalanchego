@@ -12,8 +12,8 @@ import (
 	"github.com/onsi/ginkgo/v2/formatter"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ava-labs/avalanchego/tests"
-	"github.com/ava-labs/avalanchego/wallet/subnet/primary/common"
+	"github.com/f01c5700/avalanchego/tests"
+	"github.com/f01c5700/avalanchego/wallet/subnet/primary/common"
 )
 
 type GinkgoTestContext struct{}

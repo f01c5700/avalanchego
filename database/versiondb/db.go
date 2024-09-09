@@ -9,8 +9,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/database/memdb"
+	"github.com/f01c5700/avalanchego/database"
+	"github.com/f01c5700/avalanchego/database/memdb"
 )
 
 var (

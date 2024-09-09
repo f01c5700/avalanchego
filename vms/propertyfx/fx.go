@@ -6,8 +6,8 @@ package propertyfx
 import (
 	"errors"
 
-	"github.com/ava-labs/avalanchego/vms/components/verify"
-	"github.com/ava-labs/avalanchego/vms/secp256k1fx"
+	"github.com/f01c5700/avalanchego/vms/components/verify"
+	"github.com/f01c5700/avalanchego/vms/secp256k1fx"
 )
 
 var (

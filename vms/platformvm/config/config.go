@@ -6,17 +6,17 @@ package config
 import (
 	"time"
 
-	"github.com/ava-labs/avalanchego/chains"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow/uptime"
-	"github.com/ava-labs/avalanchego/snow/validators"
-	"github.com/ava-labs/avalanchego/upgrade"
-	"github.com/ava-labs/avalanchego/utils/constants"
-	"github.com/ava-labs/avalanchego/utils/set"
-	"github.com/ava-labs/avalanchego/vms/components/gas"
-	"github.com/ava-labs/avalanchego/vms/platformvm/reward"
-	"github.com/ava-labs/avalanchego/vms/platformvm/txs"
-	"github.com/ava-labs/avalanchego/vms/platformvm/txs/fee"
+	"github.com/f01c5700/avalanchego/chains"
+	"github.com/f01c5700/avalanchego/ids"
+	"github.com/f01c5700/avalanchego/snow/uptime"
+	"github.com/f01c5700/avalanchego/snow/validators"
+	"github.com/f01c5700/avalanchego/upgrade"
+	"github.com/f01c5700/avalanchego/utils/constants"
+	"github.com/f01c5700/avalanchego/utils/set"
+	"github.com/f01c5700/avalanchego/vms/components/gas"
+	"github.com/f01c5700/avalanchego/vms/platformvm/reward"
+	"github.com/f01c5700/avalanchego/vms/platformvm/txs"
+	"github.com/f01c5700/avalanchego/vms/platformvm/txs/fee"
 )
 
 // Struct collecting all foundational parameters of PlatformVM

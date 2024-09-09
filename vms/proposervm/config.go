@@ -9,8 +9,8 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/ava-labs/avalanchego/staking"
-	"github.com/ava-labs/avalanchego/upgrade"
+	"github.com/f01c5700/avalanchego/staking"
+	"github.com/f01c5700/avalanchego/upgrade"
 )
 
 type Config struct {

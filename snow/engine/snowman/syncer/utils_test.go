@@ -10,16 +10,16 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/avalanchego/snow/engine/common/tracker"
-	"github.com/ava-labs/avalanchego/snow/engine/enginetest"
-	"github.com/ava-labs/avalanchego/snow/engine/snowman/block"
-	"github.com/ava-labs/avalanchego/snow/engine/snowman/block/blocktest"
-	"github.com/ava-labs/avalanchego/snow/engine/snowman/getter"
-	"github.com/ava-labs/avalanchego/snow/validators"
-	"github.com/ava-labs/avalanchego/utils/hashing"
+	"github.com/f01c5700/avalanchego/database"
+	"github.com/f01c5700/avalanchego/ids"
+	"github.com/f01c5700/avalanchego/snow"
+	"github.com/f01c5700/avalanchego/snow/engine/common/tracker"
+	"github.com/f01c5700/avalanchego/snow/engine/enginetest"
+	"github.com/f01c5700/avalanchego/snow/engine/snowman/block"
+	"github.com/f01c5700/avalanchego/snow/engine/snowman/block/blocktest"
+	"github.com/f01c5700/avalanchego/snow/engine/snowman/getter"
+	"github.com/f01c5700/avalanchego/snow/validators"
+	"github.com/f01c5700/avalanchego/utils/hashing"
 )
 
 const (

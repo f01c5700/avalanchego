@@ -11,14 +11,14 @@ import (
 
 	"github.com/gorilla/rpc/v2"
 
-	"github.com/ava-labs/avalanchego/chains/atomic"
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/database/encdb"
-	"github.com/ava-labs/avalanchego/database/prefixdb"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/json"
-	"github.com/ava-labs/avalanchego/utils/logging"
-	"github.com/ava-labs/avalanchego/utils/password"
+	"github.com/f01c5700/avalanchego/chains/atomic"
+	"github.com/f01c5700/avalanchego/database"
+	"github.com/f01c5700/avalanchego/database/encdb"
+	"github.com/f01c5700/avalanchego/database/prefixdb"
+	"github.com/f01c5700/avalanchego/ids"
+	"github.com/f01c5700/avalanchego/utils/json"
+	"github.com/f01c5700/avalanchego/utils/logging"
+	"github.com/f01c5700/avalanchego/utils/password"
 )
 
 const (

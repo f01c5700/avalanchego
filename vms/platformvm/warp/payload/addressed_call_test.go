@@ -9,8 +9,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ava-labs/avalanchego/codec"
-	"github.com/ava-labs/avalanchego/ids"
+	"github.com/f01c5700/avalanchego/codec"
+	"github.com/f01c5700/avalanchego/ids"
 )
 
 func TestAddressedCall(t *testing.T) {

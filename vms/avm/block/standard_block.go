@@ -7,11 +7,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ava-labs/avalanchego/codec"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/avalanchego/utils/hashing"
-	"github.com/ava-labs/avalanchego/vms/avm/txs"
+	"github.com/f01c5700/avalanchego/codec"
+	"github.com/f01c5700/avalanchego/ids"
+	"github.com/f01c5700/avalanchego/snow"
+	"github.com/f01c5700/avalanchego/utils/hashing"
+	"github.com/f01c5700/avalanchego/vms/avm/txs"
 )
 
 var _ Block = (*StandardBlock)(nil)

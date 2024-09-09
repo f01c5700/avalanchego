@@ -11,17 +11,17 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"go.uber.org/zap"
 
-	"github.com/ava-labs/avalanchego/cache"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/proto/pb/p2p"
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/avalanchego/snow/choices"
-	"github.com/ava-labs/avalanchego/snow/consensus/avalanche"
-	"github.com/ava-labs/avalanchego/snow/engine/common"
-	"github.com/ava-labs/avalanchego/utils/bimap"
-	"github.com/ava-labs/avalanchego/utils/heap"
-	"github.com/ava-labs/avalanchego/utils/set"
-	"github.com/ava-labs/avalanchego/version"
+	"github.com/f01c5700/avalanchego/cache"
+	"github.com/f01c5700/avalanchego/ids"
+	"github.com/f01c5700/avalanchego/proto/pb/p2p"
+	"github.com/f01c5700/avalanchego/snow"
+	"github.com/f01c5700/avalanchego/snow/choices"
+	"github.com/f01c5700/avalanchego/snow/consensus/avalanche"
+	"github.com/f01c5700/avalanchego/snow/engine/common"
+	"github.com/f01c5700/avalanchego/utils/bimap"
+	"github.com/f01c5700/avalanchego/utils/heap"
+	"github.com/f01c5700/avalanchego/utils/set"
+	"github.com/f01c5700/avalanchego/version"
 )
 
 const (

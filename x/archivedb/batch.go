@@ -3,7 +3,7 @@
 
 package archivedb
 
-import "github.com/ava-labs/avalanchego/database"
+import "github.com/f01c5700/avalanchego/database"
 
 var _ database.Batch = (*batch)(nil)
 

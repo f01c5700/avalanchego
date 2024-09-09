@@ -6,8 +6,8 @@ package linearcodec
 import (
 	"testing"
 
-	"github.com/ava-labs/avalanchego/codec"
-	"github.com/ava-labs/avalanchego/codec/codectest"
+	"github.com/f01c5700/avalanchego/codec"
+	"github.com/f01c5700/avalanchego/codec/codectest"
 )
 
 func TestVectors(t *testing.T) {

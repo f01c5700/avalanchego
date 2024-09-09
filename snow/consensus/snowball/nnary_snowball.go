@@ -6,7 +6,7 @@ package snowball
 import (
 	"fmt"
 
-	"github.com/ava-labs/avalanchego/ids"
+	"github.com/f01c5700/avalanchego/ids"
 )
 
 var _ Nnary = (*nnarySnowball)(nil)

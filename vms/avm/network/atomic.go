@@ -7,9 +7,9 @@ import (
 	"context"
 	"time"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow/engine/common"
-	"github.com/ava-labs/avalanchego/utils"
+	"github.com/f01c5700/avalanchego/ids"
+	"github.com/f01c5700/avalanchego/snow/engine/common"
+	"github.com/f01c5700/avalanchego/utils"
 )
 
 var _ Atomic = (*atomic)(nil)

@@ -7,7 +7,7 @@ import (
 	"context"
 	"sync"
 
-	"github.com/ava-labs/avalanchego/ids"
+	"github.com/f01c5700/avalanchego/ids"
 )
 
 var _ State = (*lockedState)(nil)

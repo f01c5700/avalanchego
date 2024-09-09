@@ -8,7 +8,7 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/ava-labs/avalanchego/utils/metric"
+	"github.com/f01c5700/avalanchego/utils/metric"
 )
 
 const opLabel = "op"

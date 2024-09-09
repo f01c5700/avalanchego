@@ -11,10 +11,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ava-labs/avalanchego/codec"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/staking"
-	"github.com/ava-labs/avalanchego/utils/wrappers"
+	"github.com/f01c5700/avalanchego/codec"
+	"github.com/f01c5700/avalanchego/ids"
+	"github.com/f01c5700/avalanchego/staking"
+	"github.com/f01c5700/avalanchego/utils/wrappers"
 )
 
 func TestParseBlocks(t *testing.T) {

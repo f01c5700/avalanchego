@@ -13,12 +13,12 @@ import (
 	"github.com/onsi/ginkgo/v2"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ava-labs/avalanchego/api/info"
-	"github.com/ava-labs/avalanchego/config"
-	"github.com/ava-labs/avalanchego/tests"
-	"github.com/ava-labs/avalanchego/tests/fixture/tmpnet"
-	"github.com/ava-labs/avalanchego/utils/crypto/secp256k1"
-	"github.com/ava-labs/avalanchego/vms/secp256k1fx"
+	"github.com/f01c5700/avalanchego/api/info"
+	"github.com/f01c5700/avalanchego/config"
+	"github.com/f01c5700/avalanchego/tests"
+	"github.com/f01c5700/avalanchego/tests/fixture/tmpnet"
+	"github.com/f01c5700/avalanchego/utils/crypto/secp256k1"
+	"github.com/f01c5700/avalanchego/vms/secp256k1fx"
 )
 
 // Env is used to access shared test fixture. Intended to be

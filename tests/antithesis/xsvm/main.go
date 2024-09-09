@@ -14,20 +14,20 @@ import (
 	"github.com/antithesishq/antithesis-sdk-go/lifecycle"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ava-labs/avalanchego/genesis"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/tests"
-	"github.com/ava-labs/avalanchego/tests/antithesis"
-	"github.com/ava-labs/avalanchego/tests/fixture/subnet"
-	"github.com/ava-labs/avalanchego/tests/fixture/tmpnet"
-	"github.com/ava-labs/avalanchego/utils/crypto/secp256k1"
-	"github.com/ava-labs/avalanchego/utils/set"
-	"github.com/ava-labs/avalanchego/utils/units"
-	"github.com/ava-labs/avalanchego/vms/example/xsvm/api"
-	"github.com/ava-labs/avalanchego/vms/example/xsvm/cmd/issue/status"
-	"github.com/ava-labs/avalanchego/vms/example/xsvm/cmd/issue/transfer"
+	"github.com/f01c5700/avalanchego/genesis"
+	"github.com/f01c5700/avalanchego/ids"
+	"github.com/f01c5700/avalanchego/tests"
+	"github.com/f01c5700/avalanchego/tests/antithesis"
+	"github.com/f01c5700/avalanchego/tests/fixture/subnet"
+	"github.com/f01c5700/avalanchego/tests/fixture/tmpnet"
+	"github.com/f01c5700/avalanchego/utils/crypto/secp256k1"
+	"github.com/f01c5700/avalanchego/utils/set"
+	"github.com/f01c5700/avalanchego/utils/units"
+	"github.com/f01c5700/avalanchego/vms/example/xsvm/api"
+	"github.com/f01c5700/avalanchego/vms/example/xsvm/cmd/issue/status"
+	"github.com/f01c5700/avalanchego/vms/example/xsvm/cmd/issue/transfer"
 
-	timerpkg "github.com/ava-labs/avalanchego/utils/timer"
+	timerpkg "github.com/f01c5700/avalanchego/utils/timer"
 )
 
 const (

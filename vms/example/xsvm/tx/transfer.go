@@ -3,7 +3,7 @@
 
 package tx
 
-import "github.com/ava-labs/avalanchego/ids"
+import "github.com/f01c5700/avalanchego/ids"
 
 var _ Unsigned = (*Transfer)(nil)
 

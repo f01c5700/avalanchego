@@ -6,8 +6,8 @@ package pubsub
 import (
 	"sync"
 
-	"github.com/ava-labs/avalanchego/pubsub/bloom"
-	"github.com/ava-labs/avalanchego/utils/set"
+	"github.com/f01c5700/avalanchego/pubsub/bloom"
+	"github.com/f01c5700/avalanchego/utils/set"
 )
 
 type FilterParam struct {

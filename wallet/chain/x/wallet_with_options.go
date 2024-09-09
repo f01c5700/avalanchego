@@ -4,14 +4,14 @@
 package x
 
 import (
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/vms/avm/txs"
-	"github.com/ava-labs/avalanchego/vms/components/avax"
-	"github.com/ava-labs/avalanchego/vms/components/verify"
-	"github.com/ava-labs/avalanchego/vms/secp256k1fx"
-	"github.com/ava-labs/avalanchego/wallet/chain/x/builder"
-	"github.com/ava-labs/avalanchego/wallet/chain/x/signer"
-	"github.com/ava-labs/avalanchego/wallet/subnet/primary/common"
+	"github.com/f01c5700/avalanchego/ids"
+	"github.com/f01c5700/avalanchego/vms/avm/txs"
+	"github.com/f01c5700/avalanchego/vms/components/avax"
+	"github.com/f01c5700/avalanchego/vms/components/verify"
+	"github.com/f01c5700/avalanchego/vms/secp256k1fx"
+	"github.com/f01c5700/avalanchego/wallet/chain/x/builder"
+	"github.com/f01c5700/avalanchego/wallet/chain/x/signer"
+	"github.com/f01c5700/avalanchego/wallet/subnet/primary/common"
 )
 
 var _ Wallet = (*walletWithOptions)(nil)

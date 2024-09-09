@@ -9,7 +9,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	safemath "github.com/ava-labs/avalanchego/utils/math"
+	safemath "github.com/f01c5700/avalanchego/utils/math"
 )
 
 func TestWeightedInitializeOverflow(t *testing.T) {

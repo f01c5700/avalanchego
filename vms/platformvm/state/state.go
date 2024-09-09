@@ -15,37 +15,37 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"go.uber.org/zap"
 
-	"github.com/ava-labs/avalanchego/cache"
-	"github.com/ava-labs/avalanchego/cache/metercacher"
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/database/linkeddb"
-	"github.com/ava-labs/avalanchego/database/prefixdb"
-	"github.com/ava-labs/avalanchego/database/versiondb"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/avalanchego/snow/choices"
-	"github.com/ava-labs/avalanchego/snow/uptime"
-	"github.com/ava-labs/avalanchego/snow/validators"
-	"github.com/ava-labs/avalanchego/upgrade"
-	"github.com/ava-labs/avalanchego/utils/constants"
-	"github.com/ava-labs/avalanchego/utils/crypto/bls"
-	"github.com/ava-labs/avalanchego/utils/hashing"
-	"github.com/ava-labs/avalanchego/utils/iterator"
-	"github.com/ava-labs/avalanchego/utils/logging"
-	"github.com/ava-labs/avalanchego/utils/timer"
-	"github.com/ava-labs/avalanchego/utils/wrappers"
-	"github.com/ava-labs/avalanchego/vms/components/avax"
-	"github.com/ava-labs/avalanchego/vms/components/gas"
-	"github.com/ava-labs/avalanchego/vms/platformvm/block"
-	"github.com/ava-labs/avalanchego/vms/platformvm/config"
-	"github.com/ava-labs/avalanchego/vms/platformvm/fx"
-	"github.com/ava-labs/avalanchego/vms/platformvm/genesis"
-	"github.com/ava-labs/avalanchego/vms/platformvm/metrics"
-	"github.com/ava-labs/avalanchego/vms/platformvm/reward"
-	"github.com/ava-labs/avalanchego/vms/platformvm/status"
-	"github.com/ava-labs/avalanchego/vms/platformvm/txs"
+	"github.com/f01c5700/avalanchego/cache"
+	"github.com/f01c5700/avalanchego/cache/metercacher"
+	"github.com/f01c5700/avalanchego/database"
+	"github.com/f01c5700/avalanchego/database/linkeddb"
+	"github.com/f01c5700/avalanchego/database/prefixdb"
+	"github.com/f01c5700/avalanchego/database/versiondb"
+	"github.com/f01c5700/avalanchego/ids"
+	"github.com/f01c5700/avalanchego/snow"
+	"github.com/f01c5700/avalanchego/snow/choices"
+	"github.com/f01c5700/avalanchego/snow/uptime"
+	"github.com/f01c5700/avalanchego/snow/validators"
+	"github.com/f01c5700/avalanchego/upgrade"
+	"github.com/f01c5700/avalanchego/utils/constants"
+	"github.com/f01c5700/avalanchego/utils/crypto/bls"
+	"github.com/f01c5700/avalanchego/utils/hashing"
+	"github.com/f01c5700/avalanchego/utils/iterator"
+	"github.com/f01c5700/avalanchego/utils/logging"
+	"github.com/f01c5700/avalanchego/utils/timer"
+	"github.com/f01c5700/avalanchego/utils/wrappers"
+	"github.com/f01c5700/avalanchego/vms/components/avax"
+	"github.com/f01c5700/avalanchego/vms/components/gas"
+	"github.com/f01c5700/avalanchego/vms/platformvm/block"
+	"github.com/f01c5700/avalanchego/vms/platformvm/config"
+	"github.com/f01c5700/avalanchego/vms/platformvm/fx"
+	"github.com/f01c5700/avalanchego/vms/platformvm/genesis"
+	"github.com/f01c5700/avalanchego/vms/platformvm/metrics"
+	"github.com/f01c5700/avalanchego/vms/platformvm/reward"
+	"github.com/f01c5700/avalanchego/vms/platformvm/status"
+	"github.com/f01c5700/avalanchego/vms/platformvm/txs"
 
-	safemath "github.com/ava-labs/avalanchego/utils/math"
+	safemath "github.com/f01c5700/avalanchego/utils/math"
 )
 
 const (
@@ -210,7 +210,7 @@ type State interface {
 	Close() error
 }
 
-// Prior to https://github.com/ava-labs/avalanchego/pull/1719, blocks were
+// Prior to https://github.com/f01c5700/avalanchego/pull/1719, blocks were
 // stored as a map from blkID to stateBlk. Nodes synced prior to this PR may
 // still have blocks partially stored using this legacy format.
 //

@@ -9,16 +9,16 @@ import (
 	"net/netip"
 	"time"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/network/dialer"
-	"github.com/ava-labs/avalanchego/network/throttling"
-	"github.com/ava-labs/avalanchego/snow/networking/tracker"
-	"github.com/ava-labs/avalanchego/snow/uptime"
-	"github.com/ava-labs/avalanchego/snow/validators"
-	"github.com/ava-labs/avalanchego/utils"
-	"github.com/ava-labs/avalanchego/utils/compression"
-	"github.com/ava-labs/avalanchego/utils/crypto/bls"
-	"github.com/ava-labs/avalanchego/utils/set"
+	"github.com/f01c5700/avalanchego/ids"
+	"github.com/f01c5700/avalanchego/network/dialer"
+	"github.com/f01c5700/avalanchego/network/throttling"
+	"github.com/f01c5700/avalanchego/snow/networking/tracker"
+	"github.com/f01c5700/avalanchego/snow/uptime"
+	"github.com/f01c5700/avalanchego/snow/validators"
+	"github.com/f01c5700/avalanchego/utils"
+	"github.com/f01c5700/avalanchego/utils/compression"
+	"github.com/f01c5700/avalanchego/utils/crypto/bls"
+	"github.com/f01c5700/avalanchego/utils/set"
 )
 
 // HealthConfig describes parameters for network layer health checks.

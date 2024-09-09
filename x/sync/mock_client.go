@@ -13,8 +13,8 @@ import (
 	context "context"
 	reflect "reflect"
 
-	sync "github.com/ava-labs/avalanchego/proto/pb/sync"
-	merkledb "github.com/ava-labs/avalanchego/x/merkledb"
+	sync "github.com/f01c5700/avalanchego/proto/pb/sync"
+	merkledb "github.com/f01c5700/avalanchego/x/merkledb"
 	gomock "go.uber.org/mock/gomock"
 )
 

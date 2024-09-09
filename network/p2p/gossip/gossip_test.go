@@ -14,16 +14,16 @@ import (
 	"golang.org/x/exp/maps"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/network/p2p"
-	"github.com/ava-labs/avalanchego/proto/pb/sdk"
-	"github.com/ava-labs/avalanchego/snow/engine/enginetest"
-	"github.com/ava-labs/avalanchego/snow/validators"
-	"github.com/ava-labs/avalanchego/snow/validators/validatorstest"
-	"github.com/ava-labs/avalanchego/utils/constants"
-	"github.com/ava-labs/avalanchego/utils/logging"
-	"github.com/ava-labs/avalanchego/utils/set"
-	"github.com/ava-labs/avalanchego/utils/units"
+	"github.com/f01c5700/avalanchego/ids"
+	"github.com/f01c5700/avalanchego/network/p2p"
+	"github.com/f01c5700/avalanchego/proto/pb/sdk"
+	"github.com/f01c5700/avalanchego/snow/engine/enginetest"
+	"github.com/f01c5700/avalanchego/snow/validators"
+	"github.com/f01c5700/avalanchego/snow/validators/validatorstest"
+	"github.com/f01c5700/avalanchego/utils/constants"
+	"github.com/f01c5700/avalanchego/utils/logging"
+	"github.com/f01c5700/avalanchego/utils/set"
+	"github.com/f01c5700/avalanchego/utils/units"
 )
 
 func TestGossiperShutdown(*testing.T) {

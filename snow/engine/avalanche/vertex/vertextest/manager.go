@@ -6,7 +6,7 @@ package vertextest
 import (
 	"testing"
 
-	"github.com/ava-labs/avalanchego/snow/engine/avalanche/vertex"
+	"github.com/f01c5700/avalanchego/snow/engine/avalanche/vertex"
 )
 
 var _ vertex.Manager = (*Manager)(nil)

@@ -7,17 +7,17 @@ import (
 	"context"
 	"time"
 
-	"github.com/ava-labs/avalanchego/database/versiondb"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/avalanchego/snow/engine/common"
-	"github.com/ava-labs/avalanchego/utils/linked"
-	"github.com/ava-labs/avalanchego/vms/example/xsvm/chain"
-	"github.com/ava-labs/avalanchego/vms/example/xsvm/execute"
-	"github.com/ava-labs/avalanchego/vms/example/xsvm/tx"
+	"github.com/f01c5700/avalanchego/database/versiondb"
+	"github.com/f01c5700/avalanchego/ids"
+	"github.com/f01c5700/avalanchego/snow"
+	"github.com/f01c5700/avalanchego/snow/engine/common"
+	"github.com/f01c5700/avalanchego/utils/linked"
+	"github.com/f01c5700/avalanchego/vms/example/xsvm/chain"
+	"github.com/f01c5700/avalanchego/vms/example/xsvm/execute"
+	"github.com/f01c5700/avalanchego/vms/example/xsvm/tx"
 
-	smblock "github.com/ava-labs/avalanchego/snow/engine/snowman/block"
-	xsblock "github.com/ava-labs/avalanchego/vms/example/xsvm/block"
+	smblock "github.com/f01c5700/avalanchego/snow/engine/snowman/block"
+	xsblock "github.com/f01c5700/avalanchego/vms/example/xsvm/block"
 )
 
 const MaxTxsPerBlock = 10

@@ -8,13 +8,13 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/constants"
-	"github.com/ava-labs/avalanchego/utils/rpc"
-	"github.com/ava-labs/avalanchego/vms/example/xsvm/block"
-	"github.com/ava-labs/avalanchego/vms/example/xsvm/genesis"
-	"github.com/ava-labs/avalanchego/vms/example/xsvm/tx"
-	"github.com/ava-labs/avalanchego/vms/platformvm/warp"
+	"github.com/f01c5700/avalanchego/ids"
+	"github.com/f01c5700/avalanchego/utils/constants"
+	"github.com/f01c5700/avalanchego/utils/rpc"
+	"github.com/f01c5700/avalanchego/vms/example/xsvm/block"
+	"github.com/f01c5700/avalanchego/vms/example/xsvm/genesis"
+	"github.com/f01c5700/avalanchego/vms/example/xsvm/tx"
+	"github.com/f01c5700/avalanchego/vms/platformvm/warp"
 )
 
 const DefaultPollingInterval = 50 * time.Millisecond

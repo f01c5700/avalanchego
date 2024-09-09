@@ -13,15 +13,15 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow/engine/common"
-	"github.com/ava-labs/avalanchego/snow/engine/common/commonmock"
-	"github.com/ava-labs/avalanchego/snow/snowtest"
-	"github.com/ava-labs/avalanchego/vms/platformvm/txs"
-	"github.com/ava-labs/avalanchego/vms/platformvm/txs/mempool/mempoolmock"
-	"github.com/ava-labs/avalanchego/vms/txs/mempool"
+	"github.com/f01c5700/avalanchego/ids"
+	"github.com/f01c5700/avalanchego/snow/engine/common"
+	"github.com/f01c5700/avalanchego/snow/engine/common/commonmock"
+	"github.com/f01c5700/avalanchego/snow/snowtest"
+	"github.com/f01c5700/avalanchego/vms/platformvm/txs"
+	"github.com/f01c5700/avalanchego/vms/platformvm/txs/mempool/mempoolmock"
+	"github.com/f01c5700/avalanchego/vms/txs/mempool"
 
-	pmempool "github.com/ava-labs/avalanchego/vms/platformvm/txs/mempool"
+	pmempool "github.com/f01c5700/avalanchego/vms/platformvm/txs/mempool"
 )
 
 var (

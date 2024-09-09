@@ -6,9 +6,9 @@ package x
 import (
 	"context"
 
-	"github.com/ava-labs/avalanchego/api/info"
-	"github.com/ava-labs/avalanchego/vms/avm"
-	"github.com/ava-labs/avalanchego/wallet/chain/x/builder"
+	"github.com/f01c5700/avalanchego/api/info"
+	"github.com/f01c5700/avalanchego/vms/avm"
+	"github.com/f01c5700/avalanchego/wallet/chain/x/builder"
 )
 
 func NewContextFromURI(ctx context.Context, uri string) (*builder.Context, error) {

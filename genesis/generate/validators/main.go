@@ -8,12 +8,12 @@ import (
 	"encoding/json"
 	"log"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/constants"
-	"github.com/ava-labs/avalanchego/utils/perms"
-	"github.com/ava-labs/avalanchego/utils/set"
-	"github.com/ava-labs/avalanchego/vms/platformvm"
-	"github.com/ava-labs/avalanchego/wallet/subnet/primary"
+	"github.com/f01c5700/avalanchego/ids"
+	"github.com/f01c5700/avalanchego/utils/constants"
+	"github.com/f01c5700/avalanchego/utils/perms"
+	"github.com/f01c5700/avalanchego/utils/set"
+	"github.com/f01c5700/avalanchego/vms/platformvm"
+	"github.com/f01c5700/avalanchego/wallet/subnet/primary"
 )
 
 // This fetches the current validator set of both Fuji and Mainnet.

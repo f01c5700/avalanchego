@@ -4,11 +4,11 @@
 package builder
 
 import (
-	"github.com/ava-labs/avalanchego/vms/avm/block"
-	"github.com/ava-labs/avalanchego/vms/avm/fxs"
-	"github.com/ava-labs/avalanchego/vms/nftfx"
-	"github.com/ava-labs/avalanchego/vms/propertyfx"
-	"github.com/ava-labs/avalanchego/vms/secp256k1fx"
+	"github.com/f01c5700/avalanchego/vms/avm/block"
+	"github.com/f01c5700/avalanchego/vms/avm/fxs"
+	"github.com/f01c5700/avalanchego/vms/nftfx"
+	"github.com/f01c5700/avalanchego/vms/propertyfx"
+	"github.com/f01c5700/avalanchego/vms/secp256k1fx"
 )
 
 const (

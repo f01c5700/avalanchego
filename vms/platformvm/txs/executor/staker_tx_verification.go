@@ -9,15 +9,15 @@ import (
 	"math"
 	"time"
 
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/constants"
-	"github.com/ava-labs/avalanchego/vms/components/avax"
-	"github.com/ava-labs/avalanchego/vms/platformvm/state"
-	"github.com/ava-labs/avalanchego/vms/platformvm/txs"
-	"github.com/ava-labs/avalanchego/vms/platformvm/txs/fee"
+	"github.com/f01c5700/avalanchego/database"
+	"github.com/f01c5700/avalanchego/ids"
+	"github.com/f01c5700/avalanchego/utils/constants"
+	"github.com/f01c5700/avalanchego/vms/components/avax"
+	"github.com/f01c5700/avalanchego/vms/platformvm/state"
+	"github.com/f01c5700/avalanchego/vms/platformvm/txs"
+	"github.com/f01c5700/avalanchego/vms/platformvm/txs/fee"
 
-	safemath "github.com/ava-labs/avalanchego/utils/math"
+	safemath "github.com/f01c5700/avalanchego/utils/math"
 )
 
 var (

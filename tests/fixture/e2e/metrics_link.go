@@ -9,7 +9,7 @@ import (
 
 	"github.com/onsi/ginkgo/v2"
 
-	"github.com/ava-labs/avalanchego/tests/fixture/tmpnet"
+	"github.com/f01c5700/avalanchego/tests/fixture/tmpnet"
 )
 
 // The ginkgo event handlers defined in this file will be automatically

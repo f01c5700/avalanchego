@@ -7,10 +7,10 @@ import (
 	"math"
 	"time"
 
-	"github.com/ava-labs/avalanchego/tests/fixture/tmpnet"
-	"github.com/ava-labs/avalanchego/utils/constants"
-	"github.com/ava-labs/avalanchego/utils/crypto/secp256k1"
-	"github.com/ava-labs/avalanchego/vms/example/xsvm/genesis"
+	"github.com/f01c5700/avalanchego/tests/fixture/tmpnet"
+	"github.com/f01c5700/avalanchego/utils/constants"
+	"github.com/f01c5700/avalanchego/utils/crypto/secp256k1"
+	"github.com/f01c5700/avalanchego/vms/example/xsvm/genesis"
 )
 
 func NewXSVMOrPanic(name string, key *secp256k1.PrivateKey, nodes ...*tmpnet.Node) *tmpnet.Subnet {

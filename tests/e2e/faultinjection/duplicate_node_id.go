@@ -10,13 +10,13 @@ import (
 	"github.com/onsi/ginkgo/v2"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ava-labs/avalanchego/api/info"
-	"github.com/ava-labs/avalanchego/config"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/tests"
-	"github.com/ava-labs/avalanchego/tests/fixture/e2e"
-	"github.com/ava-labs/avalanchego/tests/fixture/tmpnet"
-	"github.com/ava-labs/avalanchego/utils/set"
+	"github.com/f01c5700/avalanchego/api/info"
+	"github.com/f01c5700/avalanchego/config"
+	"github.com/f01c5700/avalanchego/ids"
+	"github.com/f01c5700/avalanchego/tests"
+	"github.com/f01c5700/avalanchego/tests/fixture/e2e"
+	"github.com/f01c5700/avalanchego/tests/fixture/tmpnet"
+	"github.com/f01c5700/avalanchego/utils/set"
 )
 
 var _ = ginkgo.Describe("Duplicate node handling", func() {

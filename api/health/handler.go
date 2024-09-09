@@ -9,9 +9,9 @@ import (
 
 	"github.com/gorilla/rpc/v2"
 
-	"github.com/ava-labs/avalanchego/utils/logging"
+	"github.com/f01c5700/avalanchego/utils/logging"
 
-	avajson "github.com/ava-labs/avalanchego/utils/json"
+	avajson "github.com/f01c5700/avalanchego/utils/json"
 )
 
 // NewGetAndPostHandler returns a health handler that supports GET and jsonrpc

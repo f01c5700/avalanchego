@@ -4,8 +4,8 @@
 package fee
 
 import (
-	"github.com/ava-labs/avalanchego/utils/units"
-	"github.com/ava-labs/avalanchego/vms/components/gas"
+	"github.com/f01c5700/avalanchego/utils/units"
+	"github.com/f01c5700/avalanchego/vms/components/gas"
 )
 
 const testDynamicPrice = 100

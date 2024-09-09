@@ -3,7 +3,7 @@
 
 package block
 
-import "github.com/ava-labs/avalanchego/vms/example/xsvm/tx"
+import "github.com/f01c5700/avalanchego/vms/example/xsvm/tx"
 
 const CodecVersion = tx.CodecVersion
 

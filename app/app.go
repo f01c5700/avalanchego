@@ -13,10 +13,10 @@ import (
 	"go.uber.org/zap"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/ava-labs/avalanchego/node"
-	"github.com/ava-labs/avalanchego/utils/logging"
-	"github.com/ava-labs/avalanchego/utils/perms"
-	"github.com/ava-labs/avalanchego/utils/ulimit"
+	"github.com/f01c5700/avalanchego/node"
+	"github.com/f01c5700/avalanchego/utils/logging"
+	"github.com/f01c5700/avalanchego/utils/perms"
+	"github.com/f01c5700/avalanchego/utils/ulimit"
 )
 
 const Header = `     _____               .__                       .__

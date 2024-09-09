@@ -6,7 +6,7 @@ package block
 import (
 	"context"
 
-	"github.com/ava-labs/avalanchego/ids"
+	"github.com/f01c5700/avalanchego/ids"
 )
 
 // StateSummary represents all the information needed to download, verify, and

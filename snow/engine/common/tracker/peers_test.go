@@ -9,8 +9,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/version"
+	"github.com/f01c5700/avalanchego/ids"
+	"github.com/f01c5700/avalanchego/version"
 )
 
 func TestPeers(t *testing.T) {

@@ -10,13 +10,13 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/database/memdb"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/trace"
-	"github.com/ava-labs/avalanchego/utils/maybe"
+	"github.com/f01c5700/avalanchego/database"
+	"github.com/f01c5700/avalanchego/database/memdb"
+	"github.com/f01c5700/avalanchego/ids"
+	"github.com/f01c5700/avalanchego/trace"
+	"github.com/f01c5700/avalanchego/utils/maybe"
 
-	pb "github.com/ava-labs/avalanchego/proto/pb/sync"
+	pb "github.com/f01c5700/avalanchego/proto/pb/sync"
 )
 
 const verificationCacheSize = math.MaxUint16

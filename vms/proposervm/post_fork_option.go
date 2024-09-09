@@ -9,8 +9,8 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/vms/proposervm/block"
+	"github.com/f01c5700/avalanchego/ids"
+	"github.com/f01c5700/avalanchego/vms/proposervm/block"
 )
 
 var _ PostForkBlock = (*postForkOption)(nil)

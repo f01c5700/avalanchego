@@ -18,11 +18,11 @@ import (
 
 	"github.com/spf13/cast"
 
-	"github.com/ava-labs/avalanchego/config"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/staking"
-	"github.com/ava-labs/avalanchego/utils/crypto/bls"
-	"github.com/ava-labs/avalanchego/vms/platformvm/signer"
+	"github.com/f01c5700/avalanchego/config"
+	"github.com/f01c5700/avalanchego/ids"
+	"github.com/f01c5700/avalanchego/staking"
+	"github.com/f01c5700/avalanchego/utils/crypto/bls"
+	"github.com/f01c5700/avalanchego/vms/platformvm/signer"
 )
 
 // The Node type is defined in this file (node.go - orchestration) and

@@ -8,8 +8,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ava-labs/avalanchego/utils/crypto/secp256k1"
-	"github.com/ava-labs/avalanchego/utils/formatting"
+	"github.com/f01c5700/avalanchego/utils/crypto/secp256k1"
+	"github.com/f01c5700/avalanchego/utils/formatting"
 )
 
 var ErrNilCredential = errors.New("nil credential")

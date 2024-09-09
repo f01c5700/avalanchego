@@ -3,7 +3,7 @@
 
 package buffer
 
-import "github.com/ava-labs/avalanchego/utils"
+import "github.com/f01c5700/avalanchego/utils"
 
 const defaultInitSize = 32
 

@@ -3,7 +3,7 @@
 
 package interval
 
-import "github.com/ava-labs/avalanchego/database"
+import "github.com/f01c5700/avalanchego/database"
 
 // Add the block to the tree and return if the parent block should be fetched,
 // but wasn't desired before.

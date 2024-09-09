@@ -10,15 +10,15 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/ava-labs/avalanchego/genesis"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/message"
-	"github.com/ava-labs/avalanchego/snow/networking/router"
-	"github.com/ava-labs/avalanchego/snow/validators"
-	"github.com/ava-labs/avalanchego/utils/constants"
-	"github.com/ava-labs/avalanchego/utils/logging"
-	"github.com/ava-labs/avalanchego/utils/set"
-	"github.com/ava-labs/avalanchego/version"
+	"github.com/f01c5700/avalanchego/genesis"
+	"github.com/f01c5700/avalanchego/ids"
+	"github.com/f01c5700/avalanchego/message"
+	"github.com/f01c5700/avalanchego/snow/networking/router"
+	"github.com/f01c5700/avalanchego/snow/validators"
+	"github.com/f01c5700/avalanchego/utils/constants"
+	"github.com/f01c5700/avalanchego/utils/logging"
+	"github.com/f01c5700/avalanchego/utils/set"
+	"github.com/f01c5700/avalanchego/version"
 )
 
 var _ router.ExternalHandler = (*testExternalHandler)(nil)

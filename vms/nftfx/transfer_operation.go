@@ -6,9 +6,9 @@ package nftfx
 import (
 	"errors"
 
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/avalanchego/vms/components/verify"
-	"github.com/ava-labs/avalanchego/vms/secp256k1fx"
+	"github.com/f01c5700/avalanchego/snow"
+	"github.com/f01c5700/avalanchego/vms/components/verify"
+	"github.com/f01c5700/avalanchego/vms/secp256k1fx"
 )
 
 var errNilTransferOperation = errors.New("nil transfer operation")

@@ -8,7 +8,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ava-labs/avalanchego/ids"
+	"github.com/f01c5700/avalanchego/ids"
 )
 
 func TestGenesis(t *testing.T) {

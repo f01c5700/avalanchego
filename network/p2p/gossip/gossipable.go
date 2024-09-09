@@ -3,7 +3,7 @@
 
 package gossip
 
-import "github.com/ava-labs/avalanchego/ids"
+import "github.com/f01c5700/avalanchego/ids"
 
 // Gossipable is an item that can be gossiped across the network
 type Gossipable interface {

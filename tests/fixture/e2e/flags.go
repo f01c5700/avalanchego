@@ -9,7 +9,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/ava-labs/avalanchego/tests/fixture/tmpnet"
+	"github.com/f01c5700/avalanchego/tests/fixture/tmpnet"
 )
 
 // Ensure that this value takes into account the scrape_interval

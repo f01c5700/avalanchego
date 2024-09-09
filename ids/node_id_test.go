@@ -10,7 +10,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ava-labs/avalanchego/utils/cb58"
+	"github.com/f01c5700/avalanchego/utils/cb58"
 )
 
 func TestNodeIDEquality(t *testing.T) {

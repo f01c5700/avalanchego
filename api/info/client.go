@@ -8,10 +8,10 @@ import (
 	"net/netip"
 	"time"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/upgrade"
-	"github.com/ava-labs/avalanchego/utils/rpc"
-	"github.com/ava-labs/avalanchego/vms/platformvm/signer"
+	"github.com/f01c5700/avalanchego/ids"
+	"github.com/f01c5700/avalanchego/upgrade"
+	"github.com/f01c5700/avalanchego/utils/rpc"
+	"github.com/f01c5700/avalanchego/vms/platformvm/signer"
 )
 
 var _ Client = (*client)(nil)

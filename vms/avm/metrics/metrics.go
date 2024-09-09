@@ -6,10 +6,10 @@ package metrics
 import (
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/ava-labs/avalanchego/utils/metric"
-	"github.com/ava-labs/avalanchego/utils/wrappers"
-	"github.com/ava-labs/avalanchego/vms/avm/block"
-	"github.com/ava-labs/avalanchego/vms/avm/txs"
+	"github.com/f01c5700/avalanchego/utils/metric"
+	"github.com/f01c5700/avalanchego/utils/wrappers"
+	"github.com/f01c5700/avalanchego/vms/avm/block"
+	"github.com/f01c5700/avalanchego/vms/avm/txs"
 )
 
 var _ Metrics = (*metrics)(nil)

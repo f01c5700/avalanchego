@@ -9,10 +9,10 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/vms/platformvm/block"
-	"github.com/ava-labs/avalanchego/vms/platformvm/state"
+	"github.com/f01c5700/avalanchego/database"
+	"github.com/f01c5700/avalanchego/ids"
+	"github.com/f01c5700/avalanchego/vms/platformvm/block"
+	"github.com/f01c5700/avalanchego/vms/platformvm/state"
 )
 
 func TestGetBlock(t *testing.T) {

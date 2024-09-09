@@ -10,12 +10,12 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/ava-labs/coreth/plugin/evm"
+	"github.com/f01c5700/coreth/plugin/evm"
 
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/utils/math"
-	"github.com/ava-labs/avalanchego/vms/components/avax"
-	"github.com/ava-labs/avalanchego/wallet/subnet/primary/common"
+	"github.com/f01c5700/avalanchego/database"
+	"github.com/f01c5700/avalanchego/utils/math"
+	"github.com/f01c5700/avalanchego/vms/components/avax"
+	"github.com/f01c5700/avalanchego/wallet/subnet/primary/common"
 
 	ethcommon "github.com/ethereum/go-ethereum/common"
 )

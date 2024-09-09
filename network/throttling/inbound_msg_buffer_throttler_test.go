@@ -11,7 +11,7 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ava-labs/avalanchego/ids"
+	"github.com/f01c5700/avalanchego/ids"
 )
 
 // Test inboundMsgBufferThrottler

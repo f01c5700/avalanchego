@@ -7,10 +7,10 @@ import (
 	"errors"
 	"math"
 
-	"github.com/ava-labs/avalanchego/codec"
-	"github.com/ava-labs/avalanchego/codec/linearcodec"
-	"github.com/ava-labs/avalanchego/utils/wrappers"
-	"github.com/ava-labs/avalanchego/vms/platformvm/txs"
+	"github.com/f01c5700/avalanchego/codec"
+	"github.com/f01c5700/avalanchego/codec/linearcodec"
+	"github.com/f01c5700/avalanchego/utils/wrappers"
+	"github.com/f01c5700/avalanchego/vms/platformvm/txs"
 )
 
 const CodecVersion = txs.CodecVersion

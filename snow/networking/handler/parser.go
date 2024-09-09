@@ -4,8 +4,8 @@
 package handler
 
 import (
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/set"
+	"github.com/f01c5700/avalanchego/ids"
+	"github.com/f01c5700/avalanchego/utils/set"
 )
 
 func getIDs(idsBytes [][]byte) (set.Set[ids.ID], error) {

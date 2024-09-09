@@ -10,8 +10,8 @@ import (
 	"github.com/onsi/ginkgo/v2"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ava-labs/avalanchego/api/info"
-	"github.com/ava-labs/avalanchego/tests/fixture/e2e"
+	"github.com/f01c5700/avalanchego/api/info"
+	"github.com/f01c5700/avalanchego/tests/fixture/e2e"
 )
 
 var _ = ginkgo.Describe("[Etna]", func() {

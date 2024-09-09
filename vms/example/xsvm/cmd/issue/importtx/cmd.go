@@ -11,13 +11,13 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/ava-labs/avalanchego/api/info"
-	"github.com/ava-labs/avalanchego/utils/crypto/bls"
-	"github.com/ava-labs/avalanchego/utils/set"
-	"github.com/ava-labs/avalanchego/vms/example/xsvm/api"
-	"github.com/ava-labs/avalanchego/vms/example/xsvm/cmd/issue/status"
-	"github.com/ava-labs/avalanchego/vms/example/xsvm/tx"
-	"github.com/ava-labs/avalanchego/vms/platformvm/warp"
+	"github.com/f01c5700/avalanchego/api/info"
+	"github.com/f01c5700/avalanchego/utils/crypto/bls"
+	"github.com/f01c5700/avalanchego/utils/set"
+	"github.com/f01c5700/avalanchego/vms/example/xsvm/api"
+	"github.com/f01c5700/avalanchego/vms/example/xsvm/cmd/issue/status"
+	"github.com/f01c5700/avalanchego/vms/example/xsvm/tx"
+	"github.com/f01c5700/avalanchego/vms/platformvm/warp"
 )
 
 func Command() *cobra.Command {

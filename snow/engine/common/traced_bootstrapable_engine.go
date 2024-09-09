@@ -6,7 +6,7 @@ package common
 import (
 	"context"
 
-	"github.com/ava-labs/avalanchego/trace"
+	"github.com/f01c5700/avalanchego/trace"
 )
 
 var _ BootstrapableEngine = (*tracedBootstrapableEngine)(nil)

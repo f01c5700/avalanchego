@@ -10,8 +10,8 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/staking"
+	"github.com/f01c5700/avalanchego/ids"
+	"github.com/f01c5700/avalanchego/staking"
 )
 
 var (

@@ -8,12 +8,12 @@ import (
 	"log"
 	"time"
 
-	"github.com/ava-labs/avalanchego/utils/formatting/address"
-	"github.com/ava-labs/avalanchego/utils/set"
-	"github.com/ava-labs/avalanchego/wallet/chain/x"
-	"github.com/ava-labs/avalanchego/wallet/chain/x/builder"
-	"github.com/ava-labs/avalanchego/wallet/subnet/primary"
-	"github.com/ava-labs/avalanchego/wallet/subnet/primary/common"
+	"github.com/f01c5700/avalanchego/utils/formatting/address"
+	"github.com/f01c5700/avalanchego/utils/set"
+	"github.com/f01c5700/avalanchego/wallet/chain/x"
+	"github.com/f01c5700/avalanchego/wallet/chain/x/builder"
+	"github.com/f01c5700/avalanchego/wallet/subnet/primary"
+	"github.com/f01c5700/avalanchego/wallet/subnet/primary/common"
 )
 
 func main() {

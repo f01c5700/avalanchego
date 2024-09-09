@@ -4,8 +4,8 @@
 package snowball
 
 import (
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/bag"
+	"github.com/f01c5700/avalanchego/ids"
+	"github.com/f01c5700/avalanchego/utils/bag"
 )
 
 var _ Consensus = (*Flat)(nil)

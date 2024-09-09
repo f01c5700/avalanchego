@@ -9,9 +9,9 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/snow/engine/snowman/block"
-	"github.com/ava-labs/avalanchego/vms/proposervm/summary"
+	"github.com/f01c5700/avalanchego/database"
+	"github.com/f01c5700/avalanchego/snow/engine/snowman/block"
+	"github.com/f01c5700/avalanchego/vms/proposervm/summary"
 )
 
 func (vm *VM) StateSyncEnabled(ctx context.Context) (bool, error) {

@@ -8,12 +8,12 @@ import (
 	"log"
 	"time"
 
-	"github.com/ava-labs/avalanchego/indexer"
-	"github.com/ava-labs/avalanchego/utils/constants"
-	"github.com/ava-labs/avalanchego/wallet/subnet/primary"
+	"github.com/f01c5700/avalanchego/indexer"
+	"github.com/f01c5700/avalanchego/utils/constants"
+	"github.com/f01c5700/avalanchego/wallet/subnet/primary"
 
-	platformvmblock "github.com/ava-labs/avalanchego/vms/platformvm/block"
-	proposervmblock "github.com/ava-labs/avalanchego/vms/proposervm/block"
+	platformvmblock "github.com/f01c5700/avalanchego/vms/platformvm/block"
+	proposervmblock "github.com/f01c5700/avalanchego/vms/proposervm/block"
 )
 
 // This example program continuously polls for the next P-Chain block

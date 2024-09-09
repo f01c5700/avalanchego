@@ -4,10 +4,10 @@
 package p
 
 import (
-	"github.com/ava-labs/avalanchego/vms/platformvm"
-	"github.com/ava-labs/avalanchego/vms/platformvm/txs"
-	"github.com/ava-labs/avalanchego/wallet/chain/p/wallet"
-	"github.com/ava-labs/avalanchego/wallet/subnet/primary/common"
+	"github.com/f01c5700/avalanchego/vms/platformvm"
+	"github.com/f01c5700/avalanchego/vms/platformvm/txs"
+	"github.com/f01c5700/avalanchego/wallet/chain/p/wallet"
+	"github.com/f01c5700/avalanchego/wallet/subnet/primary/common"
 )
 
 var _ wallet.Client = (*Client)(nil)

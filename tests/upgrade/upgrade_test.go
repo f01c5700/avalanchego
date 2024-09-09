@@ -13,10 +13,10 @@ import (
 	"github.com/onsi/ginkgo/v2"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ava-labs/avalanchego/config"
-	"github.com/ava-labs/avalanchego/tests/fixture/e2e"
-	"github.com/ava-labs/avalanchego/tests/fixture/tmpnet"
-	"github.com/ava-labs/avalanchego/upgrade/upgradetest"
+	"github.com/f01c5700/avalanchego/config"
+	"github.com/f01c5700/avalanchego/tests/fixture/e2e"
+	"github.com/f01c5700/avalanchego/tests/fixture/tmpnet"
+	"github.com/f01c5700/avalanchego/upgrade/upgradetest"
 )
 
 func TestUpgrade(t *testing.T) {

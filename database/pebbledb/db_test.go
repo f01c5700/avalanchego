@@ -10,8 +10,8 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ava-labs/avalanchego/database/dbtest"
-	"github.com/ava-labs/avalanchego/utils/logging"
+	"github.com/f01c5700/avalanchego/database/dbtest"
+	"github.com/f01c5700/avalanchego/utils/logging"
 )
 
 func newDB(t testing.TB) *Database {

@@ -6,16 +6,16 @@ package executor
 import (
 	"errors"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow/consensus/snowman"
-	"github.com/ava-labs/avalanchego/utils/set"
-	"github.com/ava-labs/avalanchego/vms/platformvm/block"
-	"github.com/ava-labs/avalanchego/vms/platformvm/metrics"
-	"github.com/ava-labs/avalanchego/vms/platformvm/state"
-	"github.com/ava-labs/avalanchego/vms/platformvm/txs"
-	"github.com/ava-labs/avalanchego/vms/platformvm/txs/executor"
-	"github.com/ava-labs/avalanchego/vms/platformvm/txs/mempool"
-	"github.com/ava-labs/avalanchego/vms/platformvm/validators"
+	"github.com/f01c5700/avalanchego/ids"
+	"github.com/f01c5700/avalanchego/snow/consensus/snowman"
+	"github.com/f01c5700/avalanchego/utils/set"
+	"github.com/f01c5700/avalanchego/vms/platformvm/block"
+	"github.com/f01c5700/avalanchego/vms/platformvm/metrics"
+	"github.com/f01c5700/avalanchego/vms/platformvm/state"
+	"github.com/f01c5700/avalanchego/vms/platformvm/txs"
+	"github.com/f01c5700/avalanchego/vms/platformvm/txs/executor"
+	"github.com/f01c5700/avalanchego/vms/platformvm/txs/mempool"
+	"github.com/f01c5700/avalanchego/vms/platformvm/validators"
 )
 
 var (

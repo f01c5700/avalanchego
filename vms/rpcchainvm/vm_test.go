@@ -16,14 +16,14 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 
-	"github.com/ava-labs/avalanchego/snow/engine/snowman/block"
-	"github.com/ava-labs/avalanchego/snow/engine/snowman/block/blockmock"
-	"github.com/ava-labs/avalanchego/utils/logging"
-	"github.com/ava-labs/avalanchego/vms/rpcchainvm/grpcutils"
-	"github.com/ava-labs/avalanchego/vms/rpcchainvm/runtime"
-	"github.com/ava-labs/avalanchego/vms/rpcchainvm/runtime/subprocess"
+	"github.com/f01c5700/avalanchego/snow/engine/snowman/block"
+	"github.com/f01c5700/avalanchego/snow/engine/snowman/block/blockmock"
+	"github.com/f01c5700/avalanchego/utils/logging"
+	"github.com/f01c5700/avalanchego/vms/rpcchainvm/grpcutils"
+	"github.com/f01c5700/avalanchego/vms/rpcchainvm/runtime"
+	"github.com/f01c5700/avalanchego/vms/rpcchainvm/runtime/subprocess"
 
-	vmpb "github.com/ava-labs/avalanchego/proto/pb/vm"
+	vmpb "github.com/f01c5700/avalanchego/proto/pb/vm"
 )
 
 const (

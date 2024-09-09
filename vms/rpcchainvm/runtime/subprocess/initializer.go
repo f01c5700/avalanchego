@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/ava-labs/avalanchego/version"
-	"github.com/ava-labs/avalanchego/vms/rpcchainvm/runtime"
+	"github.com/f01c5700/avalanchego/version"
+	"github.com/f01c5700/avalanchego/vms/rpcchainvm/runtime"
 )
 
 var _ runtime.Initializer = (*initializer)(nil)

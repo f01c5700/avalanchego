@@ -11,10 +11,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ava-labs/avalanchego/config"
-	"github.com/ava-labs/avalanchego/tests"
-	"github.com/ava-labs/avalanchego/tests/fixture/e2e"
-	"github.com/ava-labs/avalanchego/tests/fixture/tmpnet"
+	"github.com/f01c5700/avalanchego/config"
+	"github.com/f01c5700/avalanchego/tests"
+	"github.com/f01c5700/avalanchego/tests/fixture/e2e"
+	"github.com/f01c5700/avalanchego/tests/fixture/tmpnet"
 )
 
 const (

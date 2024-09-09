@@ -7,12 +7,12 @@ import (
 	"errors"
 	"math"
 
-	"github.com/ava-labs/avalanchego/codec"
-	"github.com/ava-labs/avalanchego/codec/linearcodec"
-	"github.com/ava-labs/avalanchego/utils/wrappers"
-	"github.com/ava-labs/avalanchego/vms/platformvm/signer"
-	"github.com/ava-labs/avalanchego/vms/platformvm/stakeable"
-	"github.com/ava-labs/avalanchego/vms/secp256k1fx"
+	"github.com/f01c5700/avalanchego/codec"
+	"github.com/f01c5700/avalanchego/codec/linearcodec"
+	"github.com/f01c5700/avalanchego/utils/wrappers"
+	"github.com/f01c5700/avalanchego/vms/platformvm/signer"
+	"github.com/f01c5700/avalanchego/vms/platformvm/stakeable"
+	"github.com/f01c5700/avalanchego/vms/secp256k1fx"
 )
 
 const CodecVersion = 0

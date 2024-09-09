@@ -10,10 +10,10 @@ import (
 
 	"github.com/decred/dcrd/dcrec/secp256k1/v4/ecdsa"
 
-	"github.com/ava-labs/avalanchego/cache"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/cb58"
-	"github.com/ava-labs/avalanchego/utils/hashing"
+	"github.com/f01c5700/avalanchego/cache"
+	"github.com/f01c5700/avalanchego/ids"
+	"github.com/f01c5700/avalanchego/utils/cb58"
+	"github.com/f01c5700/avalanchego/utils/hashing"
 
 	stdecdsa "crypto/ecdsa"
 	secp256k1 "github.com/decred/dcrd/dcrec/secp256k1/v4"

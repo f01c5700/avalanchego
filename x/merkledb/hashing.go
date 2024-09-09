@@ -8,7 +8,7 @@ import (
 	"encoding/binary"
 	"slices"
 
-	"github.com/ava-labs/avalanchego/ids"
+	"github.com/f01c5700/avalanchego/ids"
 )
 
 // TODO: Support configurable hash lengths

@@ -13,9 +13,9 @@ import (
 	context "context"
 	reflect "reflect"
 
-	database "github.com/ava-labs/avalanchego/database"
-	ids "github.com/ava-labs/avalanchego/ids"
-	maybe "github.com/ava-labs/avalanchego/utils/maybe"
+	database "github.com/f01c5700/avalanchego/database"
+	ids "github.com/f01c5700/avalanchego/ids"
+	maybe "github.com/f01c5700/avalanchego/utils/maybe"
 	gomock "go.uber.org/mock/gomock"
 )
 

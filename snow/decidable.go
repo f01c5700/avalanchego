@@ -6,7 +6,7 @@ package snow
 import (
 	"context"
 
-	"github.com/ava-labs/avalanchego/ids"
+	"github.com/f01c5700/avalanchego/ids"
 )
 
 // Decidable represents element that can be decided.

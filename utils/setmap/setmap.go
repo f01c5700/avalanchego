@@ -4,8 +4,8 @@
 package setmap
 
 import (
-	"github.com/ava-labs/avalanchego/utils"
-	"github.com/ava-labs/avalanchego/utils/set"
+	"github.com/f01c5700/avalanchego/utils"
+	"github.com/f01c5700/avalanchego/utils/set"
 )
 
 type Entry[K any, V comparable] struct {

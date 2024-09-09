@@ -7,7 +7,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/ava-labs/avalanchego/wallet/subnet/primary/common"
+	"github.com/f01c5700/avalanchego/wallet/subnet/primary/common"
 )
 
 // A long default timeout used to timeout failed operations but unlikely to induce

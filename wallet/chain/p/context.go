@@ -6,11 +6,11 @@ package p
 import (
 	"context"
 
-	"github.com/ava-labs/avalanchego/api/info"
-	"github.com/ava-labs/avalanchego/vms/avm"
-	"github.com/ava-labs/avalanchego/vms/platformvm"
-	"github.com/ava-labs/avalanchego/vms/platformvm/txs/fee"
-	"github.com/ava-labs/avalanchego/wallet/chain/p/builder"
+	"github.com/f01c5700/avalanchego/api/info"
+	"github.com/f01c5700/avalanchego/vms/avm"
+	"github.com/f01c5700/avalanchego/vms/platformvm"
+	"github.com/f01c5700/avalanchego/vms/platformvm/txs/fee"
+	"github.com/f01c5700/avalanchego/wallet/chain/p/builder"
 )
 
 // gasPriceMultiplier increases the gas price to support multiple transactions

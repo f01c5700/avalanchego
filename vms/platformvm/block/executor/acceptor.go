@@ -9,11 +9,11 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/ava-labs/avalanchego/utils"
-	"github.com/ava-labs/avalanchego/vms/platformvm/block"
-	"github.com/ava-labs/avalanchego/vms/platformvm/metrics"
-	"github.com/ava-labs/avalanchego/vms/platformvm/state"
-	"github.com/ava-labs/avalanchego/vms/platformvm/validators"
+	"github.com/f01c5700/avalanchego/utils"
+	"github.com/f01c5700/avalanchego/vms/platformvm/block"
+	"github.com/f01c5700/avalanchego/vms/platformvm/metrics"
+	"github.com/f01c5700/avalanchego/vms/platformvm/state"
+	"github.com/f01c5700/avalanchego/vms/platformvm/validators"
 )
 
 var (

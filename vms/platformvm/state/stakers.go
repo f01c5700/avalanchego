@@ -8,9 +8,9 @@ import (
 
 	"github.com/google/btree"
 
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/iterator"
+	"github.com/f01c5700/avalanchego/database"
+	"github.com/f01c5700/avalanchego/ids"
+	"github.com/f01c5700/avalanchego/utils/iterator"
 )
 
 var ErrAddingStakerAfterDeletion = errors.New("attempted to add a staker after deleting it")

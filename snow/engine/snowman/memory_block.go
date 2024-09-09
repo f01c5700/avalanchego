@@ -6,8 +6,8 @@ package snowman
 import (
 	"context"
 
-	"github.com/ava-labs/avalanchego/snow/consensus/snowman"
-	"github.com/ava-labs/avalanchego/snow/engine/snowman/ancestor"
+	"github.com/f01c5700/avalanchego/snow/consensus/snowman"
+	"github.com/f01c5700/avalanchego/snow/engine/snowman/ancestor"
 )
 
 var _ snowman.Block = (*memoryBlock)(nil)

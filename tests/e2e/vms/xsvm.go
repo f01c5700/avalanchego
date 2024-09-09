@@ -10,16 +10,16 @@ import (
 	"github.com/onsi/ginkgo/v2"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/tests/fixture/e2e"
-	"github.com/ava-labs/avalanchego/tests/fixture/subnet"
-	"github.com/ava-labs/avalanchego/tests/fixture/tmpnet"
-	"github.com/ava-labs/avalanchego/utils/crypto/secp256k1"
-	"github.com/ava-labs/avalanchego/utils/units"
-	"github.com/ava-labs/avalanchego/vms/example/xsvm/api"
-	"github.com/ava-labs/avalanchego/vms/example/xsvm/cmd/issue/export"
-	"github.com/ava-labs/avalanchego/vms/example/xsvm/cmd/issue/importtx"
-	"github.com/ava-labs/avalanchego/vms/example/xsvm/cmd/issue/transfer"
+	"github.com/f01c5700/avalanchego/ids"
+	"github.com/f01c5700/avalanchego/tests/fixture/e2e"
+	"github.com/f01c5700/avalanchego/tests/fixture/subnet"
+	"github.com/f01c5700/avalanchego/tests/fixture/tmpnet"
+	"github.com/f01c5700/avalanchego/utils/crypto/secp256k1"
+	"github.com/f01c5700/avalanchego/utils/units"
+	"github.com/f01c5700/avalanchego/vms/example/xsvm/api"
+	"github.com/f01c5700/avalanchego/vms/example/xsvm/cmd/issue/export"
+	"github.com/f01c5700/avalanchego/vms/example/xsvm/cmd/issue/importtx"
+	"github.com/f01c5700/avalanchego/vms/example/xsvm/cmd/issue/transfer"
 )
 
 const pollingInterval = 50 * time.Millisecond

@@ -7,8 +7,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/timer/mockable"
+	"github.com/f01c5700/avalanchego/ids"
+	"github.com/f01c5700/avalanchego/utils/timer/mockable"
 )
 
 var _ Throttler = (*SlidingWindowThrottler)(nil)

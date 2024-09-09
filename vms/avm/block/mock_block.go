@@ -13,10 +13,10 @@ import (
 	reflect "reflect"
 	time "time"
 
-	codec "github.com/ava-labs/avalanchego/codec"
-	ids "github.com/ava-labs/avalanchego/ids"
-	snow "github.com/ava-labs/avalanchego/snow"
-	txs "github.com/ava-labs/avalanchego/vms/avm/txs"
+	codec "github.com/f01c5700/avalanchego/codec"
+	ids "github.com/f01c5700/avalanchego/ids"
+	snow "github.com/f01c5700/avalanchego/snow"
+	txs "github.com/f01c5700/avalanchego/vms/avm/txs"
 	gomock "go.uber.org/mock/gomock"
 )
 

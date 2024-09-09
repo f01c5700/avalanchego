@@ -3,7 +3,7 @@
 
 package address
 
-import "github.com/ava-labs/avalanchego/ids"
+import "github.com/f01c5700/avalanchego/ids"
 
 func ParseToID(addrStr string) (ids.ShortID, error) {
 	_, _, addrBytes, err := Parse(addrStr)

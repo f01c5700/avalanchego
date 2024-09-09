@@ -7,13 +7,13 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/ava-labs/avalanchego/api/metrics"
-	"github.com/ava-labs/avalanchego/utils/logging"
-	"github.com/ava-labs/avalanchego/utils/resource"
-	"github.com/ava-labs/avalanchego/vms"
-	"github.com/ava-labs/avalanchego/vms/rpcchainvm/grpcutils"
-	"github.com/ava-labs/avalanchego/vms/rpcchainvm/runtime"
-	"github.com/ava-labs/avalanchego/vms/rpcchainvm/runtime/subprocess"
+	"github.com/f01c5700/avalanchego/api/metrics"
+	"github.com/f01c5700/avalanchego/utils/logging"
+	"github.com/f01c5700/avalanchego/utils/resource"
+	"github.com/f01c5700/avalanchego/vms"
+	"github.com/f01c5700/avalanchego/vms/rpcchainvm/grpcutils"
+	"github.com/f01c5700/avalanchego/vms/rpcchainvm/runtime"
+	"github.com/f01c5700/avalanchego/vms/rpcchainvm/runtime/subprocess"
 )
 
 var _ vms.Factory = (*factory)(nil)

@@ -6,12 +6,12 @@ package admin
 import (
 	"context"
 
-	"github.com/ava-labs/avalanchego/api"
-	"github.com/ava-labs/avalanchego/database/rpcdb"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/formatting"
-	"github.com/ava-labs/avalanchego/utils/logging"
-	"github.com/ava-labs/avalanchego/utils/rpc"
+	"github.com/f01c5700/avalanchego/api"
+	"github.com/f01c5700/avalanchego/database/rpcdb"
+	"github.com/f01c5700/avalanchego/ids"
+	"github.com/f01c5700/avalanchego/utils/formatting"
+	"github.com/f01c5700/avalanchego/utils/logging"
+	"github.com/f01c5700/avalanchego/utils/rpc"
 )
 
 var _ Client = (*client)(nil)

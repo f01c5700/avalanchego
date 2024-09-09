@@ -12,12 +12,12 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow/networking/tracker"
-	"github.com/ava-labs/avalanchego/snow/networking/tracker/trackermock"
-	"github.com/ava-labs/avalanchego/utils/math/meter"
-	"github.com/ava-labs/avalanchego/utils/resource"
-	"github.com/ava-labs/avalanchego/utils/timer/mockable"
+	"github.com/f01c5700/avalanchego/ids"
+	"github.com/f01c5700/avalanchego/snow/networking/tracker"
+	"github.com/f01c5700/avalanchego/snow/networking/tracker/trackermock"
+	"github.com/f01c5700/avalanchego/utils/math/meter"
+	"github.com/f01c5700/avalanchego/utils/resource"
+	"github.com/f01c5700/avalanchego/utils/timer/mockable"
 )
 
 func TestNewSystemThrottler(t *testing.T) {

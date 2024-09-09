@@ -13,13 +13,13 @@ import (
 	reflect "reflect"
 	time "time"
 
-	ids "github.com/ava-labs/avalanchego/ids"
-	iterator "github.com/ava-labs/avalanchego/utils/iterator"
-	avax "github.com/ava-labs/avalanchego/vms/components/avax"
-	gas "github.com/ava-labs/avalanchego/vms/components/gas"
-	fx "github.com/ava-labs/avalanchego/vms/platformvm/fx"
-	status "github.com/ava-labs/avalanchego/vms/platformvm/status"
-	txs "github.com/ava-labs/avalanchego/vms/platformvm/txs"
+	ids "github.com/f01c5700/avalanchego/ids"
+	iterator "github.com/f01c5700/avalanchego/utils/iterator"
+	avax "github.com/f01c5700/avalanchego/vms/components/avax"
+	gas "github.com/f01c5700/avalanchego/vms/components/gas"
+	fx "github.com/f01c5700/avalanchego/vms/platformvm/fx"
+	status "github.com/f01c5700/avalanchego/vms/platformvm/status"
+	txs "github.com/f01c5700/avalanchego/vms/platformvm/txs"
 	gomock "go.uber.org/mock/gomock"
 )
 

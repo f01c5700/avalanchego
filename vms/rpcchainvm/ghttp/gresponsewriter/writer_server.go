@@ -10,15 +10,15 @@ import (
 
 	"google.golang.org/protobuf/types/known/emptypb"
 
-	"github.com/ava-labs/avalanchego/vms/rpcchainvm/ghttp/gconn"
-	"github.com/ava-labs/avalanchego/vms/rpcchainvm/ghttp/greader"
-	"github.com/ava-labs/avalanchego/vms/rpcchainvm/ghttp/gwriter"
-	"github.com/ava-labs/avalanchego/vms/rpcchainvm/grpcutils"
+	"github.com/f01c5700/avalanchego/vms/rpcchainvm/ghttp/gconn"
+	"github.com/f01c5700/avalanchego/vms/rpcchainvm/ghttp/greader"
+	"github.com/f01c5700/avalanchego/vms/rpcchainvm/ghttp/gwriter"
+	"github.com/f01c5700/avalanchego/vms/rpcchainvm/grpcutils"
 
-	responsewriterpb "github.com/ava-labs/avalanchego/proto/pb/http/responsewriter"
-	readerpb "github.com/ava-labs/avalanchego/proto/pb/io/reader"
-	writerpb "github.com/ava-labs/avalanchego/proto/pb/io/writer"
-	connpb "github.com/ava-labs/avalanchego/proto/pb/net/conn"
+	responsewriterpb "github.com/f01c5700/avalanchego/proto/pb/http/responsewriter"
+	readerpb "github.com/f01c5700/avalanchego/proto/pb/io/reader"
+	writerpb "github.com/f01c5700/avalanchego/proto/pb/io/writer"
+	connpb "github.com/f01c5700/avalanchego/proto/pb/net/conn"
 )
 
 var (

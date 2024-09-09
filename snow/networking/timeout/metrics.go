@@ -10,9 +10,9 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/message"
-	"github.com/ava-labs/avalanchego/snow"
+	"github.com/f01c5700/avalanchego/ids"
+	"github.com/f01c5700/avalanchego/message"
+	"github.com/f01c5700/avalanchego/snow"
 )
 
 const (

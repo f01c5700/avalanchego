@@ -7,7 +7,7 @@ import (
 	"context"
 	"io"
 
-	readerpb "github.com/ava-labs/avalanchego/proto/pb/io/reader"
+	readerpb "github.com/f01c5700/avalanchego/proto/pb/io/reader"
 )
 
 var _ readerpb.ReaderServer = (*Server)(nil)

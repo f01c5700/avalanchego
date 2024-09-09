@@ -14,9 +14,9 @@ import (
 	reflect "reflect"
 	time "time"
 
-	ids "github.com/ava-labs/avalanchego/ids"
-	snowman "github.com/ava-labs/avalanchego/snow/consensus/snowman"
-	block "github.com/ava-labs/avalanchego/vms/proposervm/block"
+	ids "github.com/f01c5700/avalanchego/ids"
+	snowman "github.com/f01c5700/avalanchego/snow/consensus/snowman"
+	block "github.com/f01c5700/avalanchego/vms/proposervm/block"
 	gomock "go.uber.org/mock/gomock"
 )
 

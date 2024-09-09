@@ -10,8 +10,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/ava-labs/avalanchego/utils/formatting"
-	"github.com/ava-labs/avalanchego/vms/example/xsvm/genesis"
+	"github.com/f01c5700/avalanchego/utils/formatting"
+	"github.com/f01c5700/avalanchego/vms/example/xsvm/genesis"
 )
 
 var errUnknownEncoding = errors.New("unknown encoding")

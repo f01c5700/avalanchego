@@ -6,9 +6,9 @@ package galiasreader
 import (
 	"context"
 
-	"github.com/ava-labs/avalanchego/ids"
+	"github.com/f01c5700/avalanchego/ids"
 
-	aliasreaderpb "github.com/ava-labs/avalanchego/proto/pb/aliasreader"
+	aliasreaderpb "github.com/f01c5700/avalanchego/proto/pb/aliasreader"
 )
 
 var _ aliasreaderpb.AliasReaderServer = (*Server)(nil)

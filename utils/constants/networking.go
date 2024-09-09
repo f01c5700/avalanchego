@@ -6,8 +6,8 @@ package constants
 import (
 	"time"
 
-	"github.com/ava-labs/avalanchego/utils/compression"
-	"github.com/ava-labs/avalanchego/utils/units"
+	"github.com/f01c5700/avalanchego/utils/compression"
+	"github.com/f01c5700/avalanchego/utils/units"
 )
 
 const (

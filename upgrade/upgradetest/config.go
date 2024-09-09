@@ -6,7 +6,7 @@ package upgradetest
 import (
 	"time"
 
-	"github.com/ava-labs/avalanchego/upgrade"
+	"github.com/f01c5700/avalanchego/upgrade"
 )
 
 // GetConfig returns an upgrade config with the provided fork scheduled to have

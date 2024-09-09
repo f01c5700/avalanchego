@@ -4,8 +4,8 @@
 package txs
 
 import (
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/constants"
+	"github.com/f01c5700/avalanchego/ids"
+	"github.com/f01c5700/avalanchego/utils/constants"
 )
 
 // SubnetValidator validates a subnet on the Avalanche network.

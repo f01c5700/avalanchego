@@ -11,7 +11,7 @@ import (
 	"net/netip"
 	"strings"
 
-	"github.com/ava-labs/avalanchego/utils/ips"
+	"github.com/f01c5700/avalanchego/utils/ips"
 )
 
 var _ Resolver = (*ifConfigResolver)(nil)

@@ -13,13 +13,13 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/filesystem"
-	"github.com/ava-labs/avalanchego/utils/filesystem/filesystemmock"
-	"github.com/ava-labs/avalanchego/utils/logging"
-	"github.com/ava-labs/avalanchego/utils/resource"
-	"github.com/ava-labs/avalanchego/vms"
-	"github.com/ava-labs/avalanchego/vms/vmsmock"
+	"github.com/f01c5700/avalanchego/ids"
+	"github.com/f01c5700/avalanchego/utils/filesystem"
+	"github.com/f01c5700/avalanchego/utils/filesystem/filesystemmock"
+	"github.com/f01c5700/avalanchego/utils/logging"
+	"github.com/f01c5700/avalanchego/utils/resource"
+	"github.com/f01c5700/avalanchego/vms"
+	"github.com/f01c5700/avalanchego/vms/vmsmock"
 )
 
 var (

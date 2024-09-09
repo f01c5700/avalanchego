@@ -6,8 +6,8 @@ package avalanche
 import (
 	"context"
 
-	"github.com/ava-labs/avalanchego/snow/choices"
-	"github.com/ava-labs/avalanchego/snow/consensus/snowstorm"
+	"github.com/f01c5700/avalanchego/snow/choices"
+	"github.com/f01c5700/avalanchego/snow/consensus/snowstorm"
 )
 
 // Vertex is a collection of multiple transactions tied to other vertices

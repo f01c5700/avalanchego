@@ -7,8 +7,8 @@ import (
 	"slices"
 	"sync"
 
-	"github.com/ava-labs/avalanchego/cache"
-	"github.com/ava-labs/avalanchego/database"
+	"github.com/f01c5700/avalanchego/cache"
+	"github.com/f01c5700/avalanchego/database"
 )
 
 const (

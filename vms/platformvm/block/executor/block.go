@@ -7,10 +7,10 @@ import (
 	"context"
 	"time"
 
-	"github.com/ava-labs/avalanchego/snow/consensus/snowman"
-	"github.com/ava-labs/avalanchego/vms/platformvm/block"
+	"github.com/f01c5700/avalanchego/snow/consensus/snowman"
+	"github.com/f01c5700/avalanchego/vms/platformvm/block"
 
-	smblock "github.com/ava-labs/avalanchego/snow/engine/snowman/block"
+	smblock "github.com/f01c5700/avalanchego/snow/engine/snowman/block"
 )
 
 var (

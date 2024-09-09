@@ -6,7 +6,7 @@ package fee
 import (
 	"errors"
 
-	"github.com/ava-labs/avalanchego/vms/platformvm/txs"
+	"github.com/f01c5700/avalanchego/vms/platformvm/txs"
 )
 
 var ErrUnsupportedTx = errors.New("unsupported transaction type")

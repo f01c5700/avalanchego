@@ -9,7 +9,7 @@ import (
 	"net"
 	"net/netip"
 
-	"github.com/ava-labs/avalanchego/utils/ips"
+	"github.com/f01c5700/avalanchego/utils/ips"
 )
 
 const openDNSUrl = "resolver1.opendns.com:53"

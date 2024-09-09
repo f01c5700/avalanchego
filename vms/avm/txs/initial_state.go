@@ -9,11 +9,11 @@ import (
 	"errors"
 	"sort"
 
-	"github.com/ava-labs/avalanchego/codec"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/avalanchego/utils"
-	"github.com/ava-labs/avalanchego/vms/components/verify"
+	"github.com/f01c5700/avalanchego/codec"
+	"github.com/f01c5700/avalanchego/ids"
+	"github.com/f01c5700/avalanchego/snow"
+	"github.com/f01c5700/avalanchego/utils"
+	"github.com/f01c5700/avalanchego/vms/components/verify"
 )
 
 var (

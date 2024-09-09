@@ -7,11 +7,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/utils/timer/mockable"
-	"github.com/ava-labs/avalanchego/vms/components/gas"
-	"github.com/ava-labs/avalanchego/vms/platformvm/config"
-	"github.com/ava-labs/avalanchego/vms/platformvm/txs/fee"
+	"github.com/f01c5700/avalanchego/database"
+	"github.com/f01c5700/avalanchego/utils/timer/mockable"
+	"github.com/f01c5700/avalanchego/vms/components/gas"
+	"github.com/f01c5700/avalanchego/vms/platformvm/config"
+	"github.com/f01c5700/avalanchego/vms/platformvm/txs/fee"
 )
 
 func NextBlockTime(state Chain, clk *mockable.Clock) (time.Time, bool, error) {

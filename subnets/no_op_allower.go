@@ -3,7 +3,7 @@
 
 package subnets
 
-import "github.com/ava-labs/avalanchego/ids"
+import "github.com/f01c5700/avalanchego/ids"
 
 // NoOpAllower is an Allower that always returns true
 var NoOpAllower Allower = noOpAllower{}

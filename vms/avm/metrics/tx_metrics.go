@@ -6,7 +6,7 @@ package metrics
 import (
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/ava-labs/avalanchego/vms/avm/txs"
+	"github.com/f01c5700/avalanchego/vms/avm/txs"
 )
 
 const txLabel = "tx"

@@ -9,9 +9,9 @@ import (
 
 	"github.com/google/btree"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/crypto/bls"
-	"github.com/ava-labs/avalanchego/vms/platformvm/txs"
+	"github.com/f01c5700/avalanchego/ids"
+	"github.com/f01c5700/avalanchego/utils/crypto/bls"
+	"github.com/f01c5700/avalanchego/vms/platformvm/txs"
 )
 
 var _ btree.LessFunc[*Staker] = (*Staker).Less

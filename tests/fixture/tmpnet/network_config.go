@@ -10,9 +10,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/ava-labs/avalanchego/genesis"
-	"github.com/ava-labs/avalanchego/utils/crypto/secp256k1"
-	"github.com/ava-labs/avalanchego/utils/perms"
+	"github.com/f01c5700/avalanchego/genesis"
+	"github.com/f01c5700/avalanchego/utils/crypto/secp256k1"
+	"github.com/f01c5700/avalanchego/utils/perms"
 )
 
 // The Network type is defined in this file (reading/writing configuration) and network.go

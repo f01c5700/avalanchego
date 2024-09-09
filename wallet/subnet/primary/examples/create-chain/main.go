@@ -9,13 +9,13 @@ import (
 	"math"
 	"time"
 
-	"github.com/ava-labs/avalanchego/genesis"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/constants"
-	"github.com/ava-labs/avalanchego/vms/secp256k1fx"
-	"github.com/ava-labs/avalanchego/wallet/subnet/primary"
+	"github.com/f01c5700/avalanchego/genesis"
+	"github.com/f01c5700/avalanchego/ids"
+	"github.com/f01c5700/avalanchego/utils/constants"
+	"github.com/f01c5700/avalanchego/vms/secp256k1fx"
+	"github.com/f01c5700/avalanchego/wallet/subnet/primary"
 
-	xsgenesis "github.com/ava-labs/avalanchego/vms/example/xsvm/genesis"
+	xsgenesis "github.com/f01c5700/avalanchego/vms/example/xsvm/genesis"
 )
 
 func main() {

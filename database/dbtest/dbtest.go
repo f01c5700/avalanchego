@@ -16,10 +16,10 @@ import (
 	"golang.org/x/exp/maps"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/database/databasemock"
-	"github.com/ava-labs/avalanchego/utils"
-	"github.com/ava-labs/avalanchego/utils/units"
+	"github.com/f01c5700/avalanchego/database"
+	"github.com/f01c5700/avalanchego/database/databasemock"
+	"github.com/f01c5700/avalanchego/utils"
+	"github.com/f01c5700/avalanchego/utils/units"
 )
 
 // Tests is a list of all database tests

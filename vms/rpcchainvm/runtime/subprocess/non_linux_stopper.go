@@ -12,7 +12,7 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/ava-labs/avalanchego/utils/logging"
+	"github.com/f01c5700/avalanchego/utils/logging"
 )
 
 func NewCmd(path string, args ...string) *exec.Cmd {

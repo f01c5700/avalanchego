@@ -12,21 +12,21 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/ethclient"
-	"github.com/ava-labs/coreth/interfaces"
+	"github.com/f01c5700/coreth/core/types"
+	"github.com/f01c5700/coreth/ethclient"
+	"github.com/f01c5700/coreth/interfaces"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ava-labs/avalanchego/config"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/tests"
-	"github.com/ava-labs/avalanchego/tests/fixture/tmpnet"
-	"github.com/ava-labs/avalanchego/utils/crypto/secp256k1"
-	"github.com/ava-labs/avalanchego/vms/platformvm/txs/fee"
-	"github.com/ava-labs/avalanchego/vms/secp256k1fx"
-	"github.com/ava-labs/avalanchego/wallet/chain/p/builder"
-	"github.com/ava-labs/avalanchego/wallet/subnet/primary"
-	"github.com/ava-labs/avalanchego/wallet/subnet/primary/common"
+	"github.com/f01c5700/avalanchego/config"
+	"github.com/f01c5700/avalanchego/ids"
+	"github.com/f01c5700/avalanchego/tests"
+	"github.com/f01c5700/avalanchego/tests/fixture/tmpnet"
+	"github.com/f01c5700/avalanchego/utils/crypto/secp256k1"
+	"github.com/f01c5700/avalanchego/vms/platformvm/txs/fee"
+	"github.com/f01c5700/avalanchego/vms/secp256k1fx"
+	"github.com/f01c5700/avalanchego/wallet/chain/p/builder"
+	"github.com/f01c5700/avalanchego/wallet/subnet/primary"
+	"github.com/f01c5700/avalanchego/wallet/subnet/primary/common"
 )
 
 const (
@@ -145,7 +145,7 @@ func SuggestGasPrice(tc tests.TestContext, ethClient ethclient.Client) *big.Int 
 	require.NoError(tc, err)
 	// Double the suggested gas price to maximize the chances of
 	// acceptance. Maybe this can be revisited pending resolution of
-	// https://github.com/ava-labs/coreth/issues/314.
+	// https://github.com/f01c5700/coreth/issues/314.
 	gasPrice.Add(gasPrice, gasPrice)
 	return gasPrice
 }

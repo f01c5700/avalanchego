@@ -6,8 +6,8 @@ package warp
 import (
 	"fmt"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/hashing"
+	"github.com/f01c5700/avalanchego/ids"
+	"github.com/f01c5700/avalanchego/utils/hashing"
 )
 
 // UnsignedMessage defines the standard format for an unsigned Warp message.

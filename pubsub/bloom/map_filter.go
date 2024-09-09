@@ -6,7 +6,7 @@ package bloom
 import (
 	"sync"
 
-	"github.com/ava-labs/avalanchego/utils/set"
+	"github.com/f01c5700/avalanchego/utils/set"
 )
 
 type mapFilter struct {

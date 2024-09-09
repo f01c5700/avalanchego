@@ -14,14 +14,14 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/database/memdb"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/logging"
-	"github.com/ava-labs/avalanchego/utils/maybe"
-	"github.com/ava-labs/avalanchego/x/merkledb"
+	"github.com/f01c5700/avalanchego/database"
+	"github.com/f01c5700/avalanchego/database/memdb"
+	"github.com/f01c5700/avalanchego/ids"
+	"github.com/f01c5700/avalanchego/utils/logging"
+	"github.com/f01c5700/avalanchego/utils/maybe"
+	"github.com/f01c5700/avalanchego/x/merkledb"
 
-	pb "github.com/ava-labs/avalanchego/proto/pb/sync"
+	pb "github.com/f01c5700/avalanchego/proto/pb/sync"
 )
 
 func newCallthroughSyncClient(ctrl *gomock.Controller, db merkledb.MerkleDB) *MockClient {
